@@ -1,0 +1,21 @@
+{
+    "Races": [{
+        "date": "2019-04-01",
+        "title": "Mag Mile",
+        "location": "Chicago",
+        "distance": "5k",
+        "link": "www.google.com"
+    }, {
+        "date": "2019-04-05",
+        "title": "Chi Town",
+        "location": "Chicago",
+        "distance": "10k",
+        "link": "www.google.com"
+    }, {
+        "date": "2019-10-01",
+        "title": "Chicago Marathon",
+        "location": "Chicago",
+        "distance": "26.1m",
+        "link": "www.google.com"
+    }]
+}

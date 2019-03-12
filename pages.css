@@ -1,0 +1,25 @@
+body {
+  background: white;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+#data-container {
+  background: #e1e1e1;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 10px auto;
+  width: 300px;
+}
+
+button {
+  background: #0084ff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #fff;
+}
