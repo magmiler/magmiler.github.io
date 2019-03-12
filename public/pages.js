@@ -8,10 +8,9 @@ $(document).ready(function() {
     url: "https://magmiler.github.io/races/",
     dataType: "json"
   }).done(function(result) {
-    let id = Math.floor(Math.random() * 3);
-    let title = result['Races'][id]['title'];
-    let distance = result['Races'][id]['distance'];
-    let date = result['Races'][id]['date'];
+    let title = result['Races'][1]['title'];
+    let distance = result['Races'][1]['distance'];
+    let date = result['Races'][1]['date'];
 
     let dstring = "Race: " + title + ", Distance: " + distance + ", Date: " + date;
     dataContainer.text(dstring);
