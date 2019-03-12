@@ -1,9 +1,8 @@
 // find elements
 var dataContainer = $("#data-container");
-var btn = $("#btn1");
 
 // handle click and add class
-btn.on("click", function(e) {
+$(document).ready(function() {
 
   $.ajax({
     url: "https://magmiler.github.io/races/",
