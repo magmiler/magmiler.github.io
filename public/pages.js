@@ -1,25 +1,17 @@
 
 // handle click and add class
 $(document).ready(function() {
-  $.ajax({
-    url: "https://magmiler.github.io/races/",
-    dataType: "json"
-  }).done(function(result) {
-    var eventList = $("#event-list");
+  $.getJSON("https://magmiler.github.io/races/", function(data){
     let dstring = ""
-    for (i = 0; i < result.length; ++i) {
-      let title = result[i]['title'];
-      let distance = result[i]['distance'];
-      let date = result[i]['date'];
-      let location = result[i]['location'];
-      dstring = dstring + '<li><time><span class="day">' + date + '</span>'
-      dstring = dstring + '<span class="month">' + date + '</span></time>'
-      dstring = dstring + '<div class="info"><h2 class="title">' + title + '</h2>'
-      dstring = dstring + '<p class="desc"><i class="fas fa-map-signs event-list-icon"></i>' + location
-      dstring = dstring + '<i class="far fa-clock event-list-icon"></i>' + date
-      dstring = dstring + '<br><i class="fas fa-road event-list-icon"></i>' + distance
+    $.each(data, function (index, race) {
+      dstring = dstring + '<li><time><span class="day">' + race.Date + '</span>'
+      dstring = dstring + '<span class="month">' + race.Date + '</span></time>'
+      dstring = dstring + '<div class="info"><h2 class="title">' + race.Title + '</h2>'
+      dstring = dstring + '<p class="desc"><i class="fas fa-map-signs event-list-icon"></i>' + race.Location
+      dstring = dstring + '<br><i class="far fa-clock event-list-icon"></i>' + race.Time
+      dstring = dstring + '<br><i class="fas fa-road event-list-icon"></i>' + race.Distance
       dstring = dstring + '</p></div></li>'
-    }
-    eventList.html(dstring);
-  })
+    });
+    $("#event-list").html(dstring);
+  });
 })
