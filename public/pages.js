@@ -7,11 +7,11 @@ $(document).ready(function() {
   }).done(function(result) {
     var eventList = $("#event-list");
     let dstring = ""
-    for (i = 0; i < result['Races'].length; ++i) {
-      let title = result['Races'][i]['title'];
-      let distance = result['Races'][i]['distance'];
-      let date = result['Races'][i]['date'];
-      let location = result['Races'][i]['location'];
+    for (i = 0; i < result.length; ++i) {
+      let title = result[i]['title'];
+      let distance = result[i]['distance'];
+      let date = result[i]['date'];
+      let location = result[i]['location'];
       dstring = dstring + '<li><time><span class="day">' + date + '</span>'
       dstring = dstring + '<span class="month">' + date + '</span></time>'
       dstring = dstring + '<div class="info"><h2 class="title">' + title + '</h2>'

@@ -1,753 +1,869 @@
-{
-    "Races": [{
-    "title": "Fight for Air Climb - Presidential Towers Stair Climb",
-    "date": "01/01/0003 00:00am",
-    "location": "Chicago",
-    "distance": "180 Floors",
-    "link": "https://action.lung.org/site/TR?fr_id=17746&pg=entry"
-}, {
-    "title": "Winnetka District 36 Jungle Jog 5K",
-    "date": "01/01/0003 00:00am",
-    "location": "Winnetka",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/Winnetka/WinnetkaMiddleSchoolDistrict?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw"
-}, {
-    "title": "Deer Park St. Paddy's Run",
-    "date": "01/01/0003 00:00am",
-    "location": "Deer Park",
-    "distance": "10K,5K",
-    "link": "https://allcommunityevents.com/deerparkstpaddysrun"
-}, {
-    "title": "St. Paddy's Day 5K & 8K",
-    "date": "01/01/0003 00:00am",
-    "location": "Chicago",
-    "distance": "8K,5K",
-    "link": "https://www.chicagoevents.com/events/st-paddys-day-run/"
-}, {
-    "title": "Run for Cristo Rey",
-    "date": "01/01/0003 00:00am",
-    "location": "Chicago",
-    "distance": "10K,5K",
-    "link": "https://www.cristorey.net/giving/event/runforcr"
-}, {
-    "title": "Together We Tri Indoor Triathlon",
-    "date": "01/01/0003 00:00am",
-    "location": "Glenview",
-    "distance": "10 minute swim,20 minute bike,15 minute run",
-    "link": "http://www.togetherwetri.com/triathlons.html"
-}, {
-    "title": "Amita Health Bolingbrook St. Paddy's Half Marathon & 5K",
-    "date": "01/01/0003 00:00am",
-    "location": "Bolingbrook",
-    "distance": "13.1 Miles,5K",
-    "link": "https://allcommunityevents.com/bolingbrookstpaddysrun"
-}, {
-    "title": "Bank of America Shamrock Shuffle The Mile",
-    "date": "01/01/0003 00:00am",
-    "location": "Chicago",
-    "distance": "1 Mile",
-    "link": "https://www.shamrockshuffle.com/register-for-2019/one-mile/"
-}, {
-    "title": "Bank of America Shamrock Shuffle",
-    "date": "01/01/0003 00:00am",
-    "location": "Chicago",
-    "distance": "8K,2 Mile",
-    "link": "https://www.shamrockshuffle.com/"
-}, {
-    "title": "20th Annual Chicago Lakefront 50K George Cheung Memorial Race",
-    "date": "01/01/0003 00:00am",
-    "location": "Chicago",
-    "distance": "50K",
-    "link": "http://www.chicagoultra.org/"
-}, {
-    "title": "March4Meg 5K Run/Walk",
-    "date": "01/01/0003 00:00am",
-    "location": "Evergreen Park",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/EvergreenPark/March4Meg?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw"
-}, {
-    "title": "Milwaukee Marathon",
-    "date": "01/01/0004 00:00am",
-    "location": "Milwaukee",
-    "distance": "26.2 Miles",
-    "link": "https://runmilwaukee.com/race-details/"
-}, {
-    "title": "Chi Town Half Marathon & 10K",
-    "date": "01/01/0004 00:00am",
-    "location": "Chicago",
-    "distance": "13.1 Miles,10K",
-    "link": "https://allcommunityevents.com/chitownhalfmarathon10k"
-}, {
-    "title": "World Health Run/Walk",
-    "date": "01/01/0004 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://localraces.com/worldhealthrun/world-health-run-walk-chicago-il-usa"
-}, {
-    "title": "April Fool's 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Bloomingdale",
-    "distance": "5K",
-    "link": "https://ducatchiropractic.com/running/april-fools-5k-run/"
-}, {
-    "title": "Bull Valley Monster Hill Challenge",
-    "date": "01/01/0004 00:00am",
-    "location": "Bull Valley",
-    "distance": "5K,2K",
-    "link": "https://raceroster.com/events/2019/21289/the-bull-valley-monster-hill-challenge-5k"
-}, {
-    "title": "Good Life Race 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Oak Park",
-    "distance": "5K",
-    "link": "http://goodliferace.com/"
-}, {
-    "title": "Mustang Trot 5K Run/Walk",
-    "date": "01/01/0004 00:00am",
-    "location": "Downers Grove",
-    "distance": "5K",
-    "link": "https://mustangtrot.weebly.com/"
-}, {
-    "title": "Beat The Eagle 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Lombard",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/Lombard/BeatTheEagle?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw"
-}, {
-    "title": "Fun Run in Color 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Wheaton",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/Wheaton/FunRuninColor?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw"
-}, {
-    "title": "Wintrust Lakefront 10 Mile & 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Chicago",
-    "distance": "10 Miles,5K",
-    "link": "https://www.caralakefront10.com/"
-}, {
-    "title": "Breakthrough for Brain Tumors 5K Run/Walk",
-    "date": "01/01/0004 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "http://hope.abta.org/site/TR/?pg=entry&fr_id=3891"
-}, {
-    "title": "Champion of Trees 10K",
-    "date": "01/01/0004 00:00am",
-    "location": "Lisle",
-    "distance": "10K",
-    "link": "http://www.mortonarb.org/events/champion-trees-10k-run"
-}, {
-    "title": "Young Hearts for Life 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Lisle",
-    "distance": "5K",
-    "link": "https://www.eventbrite.com/e/young-hearts-for-life-4th-annual-junior-board-5k-runwalk-tickets-54832892658"
-}, {
-    "title": "Bunny Rock Chicago 5K Run/Walk",
-    "date": "01/01/0004 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "http://www.bunnyrock5k.com/"
-}, {
-    "title": "Illiana Pancake Pacer 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Dyer",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/Lansing/IllianaPancakePacer"
-}, {
-    "title": "NSYMCA Healthy KidsDay 5K Run",
-    "date": "01/01/0004 00:00am",
-    "location": "Northbrook",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/Northbrook/HealthyKidsDay5kWalkRun?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw"
-}, {
-    "title": "Race To Wrigley 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://www.race-cubs.com/"
-}, {
-    "title": "TCS Run, White and Blue 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Shorewood",
-    "distance": "5K",
-    "link": "https://www.signmeup.com/site/reg/register.aspx?fid=C02V4H7"
-}, {
-    "title": "Race to Wrigley 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://www.race-cubs.com/"
-}, {
-    "title": "DuPage Human Race 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Downers Grove",
-    "distance": "5K,2 Mile Walk",
-    "link": "https://www.dupagehumanrace.org/"
-}, {
-    "title": "Foodie 5K - Wheaton",
-    "date": "01/01/0004 00:00am",
-    "location": "Wheaton",
-    "distance": "5K",
-    "link": "https://secure.qgiv.com/event/foodie5k2019/page/322691/"
-}, {
-    "title": "Spring into Health 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Elk Grove Village",
-    "distance": "5K",
-    "link": "https://springintohealth.org/"
-}, {
-    "title": "Ravenswood Run 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://www.ravenswoodrun.com/"
-}, {
-    "title": "Phi Delta Chi 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/Chicago/PhiDeltaChi5K?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw"
-}, {
-    "title": "The McHenry County Human Race",
-    "date": "01/01/0004 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/CrystalLake/McHenryCountyHumanRace"
-}, {
-    "title": "HOPE Scholarship 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Berwyn",
-    "distance": "5K",
-    "link": "https://www.active.com/berwyn-il/running/distance-running-races/hope-scholarship-5k-2019?ltcmp=254301&ltclickid=02_22632832_def70e94-956f-4cc3-b181-f735e55eac9f&cmp=39N-DP260-BND10-SD230-DM20&cdg=affiliate-254301"
-}, {
-    "title": "Miles for Smiles 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Oswego",
-    "distance": "5K",
-    "link": "https://www.facebook.com/Celebrate-Differences-5K-Run-Walk-350345818320162/?epa=SEARCH_BOX"
-}, {
-    "title": "Run, Walk & Roll 5K",
-    "date": "01/01/0004 00:00am",
-    "location": "Bloomingdale",
-    "distance": "5K,1 Mile",
-    "link": "https://p2p.onecause.com/run-walk-roll"
-}, {
-    "title": "Payton O'Brien Run",
-    "date": "01/01/0004 00:00am",
-    "location": "Elmhurst",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/Elmhurst/2018PaytonOBrienBloodDriveandRunWalk"
-}, {
-    "title": "Wisconsin Marathon",
-    "date": "01/01/0005 00:00am",
-    "location": "Kenosha",
-    "distance": "13.1 Miles,10K,5K",
-    "link": "http://wisconsinmarathon.com/"
-}, {
-    "title": "IJP Trek for Tech 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Flossmoor",
-    "distance": "5K",
-    "link": "https://raceroster.com/events/2019/21931/ijp-trek-for-tech-5k-runwalk"
-}, {
-    "title": "Run to Remember 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://www.classy.org/event/2019-run-to-remember/e214707"
-}, {
-    "title": "Don't Tell Me To Slow Down 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Evanston",
-    "distance": "5K",
-    "link": "https://app.racereach.com/event/nsa-chicago5k-familyfunrun/details"
-}, {
-    "title": "Cinco de Miler",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "5 Mile",
-    "link": "https://www.cincodemiler.com/"
-}, {
-    "title": "Huskies Pride Run/Walk",
-    "date": "01/01/0005 00:00am",
-    "location": "Arlington Heights",
-    "distance": "10K,5K",
-    "link": "https://huskiespriderunwalk.itsyourrace.com/event.aspx?id=11606"
-}, {
-    "title": "Run for the Kids: Superhero Hustle",
-    "date": "01/01/0005 00:00am",
-    "location": "Villa Park",
-    "distance": "5K,2 Mile Walk",
-    "link": "http://www.easterseals.com/dfv/get-involved/events/run-for-the-kids.html"
-}, {
-    "title": "World Vision Global 6K for Water",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "6K",
-    "link": "https://www.teamworldvision.org/index.cfm?fuseaction=donorDrive.event&eventID=1130"
-}, {
-    "title": "The Cities Project's 5th Annual 5K/8K Superhero Run",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://www.eventbrite.com/e/the-cities-projects-5th-annual-5k8k-superhero-run-registration-54934386228"
-}, {
-    "title": "Spring Fling 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Willowbrook",
-    "distance": "5K,1 Mile",
-    "link": "https://www.athlinks.com/event/spring-fling-5k-2019-183871"
-}, {
-    "title": "Groovin' in the Grove 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Downers Grove",
-    "distance": "5K",
-    "link": "https://raceroster.com/events/2019/20583/30th-annual-groovin-in-the-grove-10k-5k-little-groovers-1k-k-100-yd-dash"
-}, {
-    "title": "Quarryman Challenge 10 Mile & 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Lemont",
-    "distance": "10 Miles,5K",
-    "link": "http://quarrymanchallenge.com/"
-}, {
-    "title": "Pink 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Oak Brook",
-    "distance": "5K",
-    "link": "https://www.obparks.org/special-events/pink-5k"
-}, {
-    "title": "Gallery Gallop",
-    "date": "01/01/0005 00:00am",
-    "location": "Gary",
-    "distance": "8.5K,3K",
-    "link": "https://runsignup.com/Race/IN/Gary/21stAnnualGalleryGallop?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw"
-}, {
-    "title": "Barrington Mother's Day 5K Run/Walk",
-    "date": "01/01/0005 00:00am",
-    "location": "Barrington",
-    "distance": "5K",
-    "link": "https://allcommunityevents.com/mothersday5k"
-}, {
-    "title": "Queens Bees' for Breast & Ovarian Cancer 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Highland Park",
-    "distance": "5K",
-    "link": "http://carpediemraces.com/embrace-the-race-5k/"
-}, {
-    "title": "Komen Chicago Race for the Cure",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "http://chicagoland.info-komen.org/site/TR/RacefortheCure/HIL_ChicagoAffiliate?pg=entry&fr_id=7512"
-}, {
-    "title": "Universal Sole 4 Mile Classic",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "4 Mile",
-    "link": "http://www.universalsole.com/four-mile-classic.html"
-}, {
-    "title": "22nd Annual Run Walk - Together in Teal® - Ending Ovarian Cancer",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://runwalk.ovarian.org/illinois"
-}, {
-    "title": "Got2Run for Education 8K & 2.62K",
-    "date": "01/01/0005 00:00am",
-    "location": "Arlington Heights",
-    "distance": "8K,2.62K",
-    "link": "http://www.got2run.org/"
-}, {
-    "title": "Lew Blond Memorial 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Northbrook",
-    "distance": "5K",
-    "link": "http://lewblondrun.org/"
-}, {
-    "title": "The Y Run 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Glen Ellyn",
-    "distance": "5K",
-    "link": "http://www.brryallymca.org/Yrun"
-}, {
-    "title": "5K Run and Walk to Help Children with Dyslexia",
-    "date": "01/01/0005 00:00am",
-    "location": "Bloomingdale",
-    "distance": "5K",
-    "link": "https://donate.childrensdyslexiacenterchicago.org/event/2019-5k-run-walk-to-help-children-with-dyslexia/e201539"
-}, {
-    "title": "Stem Step 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "http://www.stemstep5k.com/"
-}, {
-    "title": "Horizon Hustle 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "http://www.runwalk.events/E1.asp?eID=53715"
-}, {
-    "title": "Stride For A Cure 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Elk Grove Village",
-    "distance": "5K",
-    "link": "http://www.phaevents.org/site/TR?fr_id=1224&pg=entry"
-}, {
-    "title": "Girls on the Run 5K - Northwest Indiana",
-    "date": "01/01/0005 00:00am",
-    "location": "Highland",
-    "distance": "5K",
-    "link": "https://gotrofnwi.org/5K-Highland"
-}, {
-    "title": "Night Nation Run - Chicago",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://nightnationrun.com/chicago/"
-}, {
-    "title": "Byline Bank Chicago Spring Half Marathon & 10K",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "13.1 Miles,10K",
-    "link": "https://www.chicagospringhalf.com/"
-}, {
-    "title": "Chicagoland Spring Marathon & Half Marathon",
-    "date": "01/01/0005 00:00am",
-    "location": "Schaumburg",
-    "distance": "26.2 Miles,13.1 Miles",
-    "link": "https://allcommunityevents.com/chicagolandspringmarathon"
-}, {
-    "title": "Hill Yea! 10K",
-    "date": "01/01/0005 00:00am",
-    "location": "Gary",
-    "distance": "10K",
-    "link": "https://runsignup.com/Race/IN/Gary/HillYea10K?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw"
-}, {
-    "title": "Run \"Fore\" The Greater Good 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Tinley Park",
-    "distance": "5K",
-    "link": "https://www.cognitoforms.com/OdysseyGolfFoundation1/_2019OdysseyGolfFoundationRunForeTheGreaterGood5K"
-}, {
-    "title": "Run for 102/Run for the Roses 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "La Grange",
-    "distance": "5K",
-    "link": "http://www.runfor102.org/"
-}, {
-    "title": "Darien Dash",
-    "date": "01/01/0005 00:00am",
-    "location": "Darien",
-    "distance": "10K,5K,1 Mile",
-    "link": "http://dariendash.com/"
-}, {
-    "title": "Chicago Promise Walk and 5K Run",
-    "date": "01/01/0005 00:00am",
-    "location": "Elk Grove Village",
-    "distance": "5K",
-    "link": "http://promisewalk.org/locationpage.asp?BranchID=9"
-}, {
-    "title": "Backbones 5K Run, Walk n Roll",
-    "date": "01/01/0005 00:00am",
-    "location": "Prospect Heights",
-    "distance": "5K",
-    "link": "https://backbonesonline.com/event/backbones5k2019/"
-}, {
-    "title": "PCHA -Illinois Conquering Congenital Heart Disease Run",
-    "date": "01/01/0005 00:00am",
-    "location": "Glen Ellyn",
-    "distance": "2 Miles",
-    "link": "https://runsignup.com/Race/IL/GlenEllyn/ConqueringCHDIllinois?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw"
-}, {
-    "title": "J.P. Morgan Corporate Challenge - Chicago",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "3.5 Miles",
-    "link": "https://www.jpmorganchasecc.com/city/chicago/event-details"
-}, {
-    "title": "Soldier Field 10 Mile",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "10 Mile",
-    "link": "https://www.soldierfield10.com/"
-}, {
-    "title": "Bubble Run 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Joliet-Chicagoland Speedway",
-    "distance": "5K",
-    "link": "http://bubblerun.com/upcoming-locations/chicago-il/"
-}, {
-    "title": "Salute, Inc. Memorial Day Weekend 10K/5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Arlington Heights",
-    "distance": "10K,5K",
-    "link": "https://www.saluteinc.org/events/salute-inc-5k-10k/"
-}, {
-    "title": "Western Springs Tower Trot",
-    "date": "01/01/0005 00:00am",
-    "location": "Western Springs",
-    "distance": "10K,5K",
-    "link": "http://www.wsprings.com/414/Tower-Trot"
-}, {
-    "title": "Foam Glow 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Joliet-Chicagoland Speedway",
-    "distance": "5K",
-    "link": "http://www.foamglow.com/chicagoil/"
-}, {
-    "title": "Race to the Flag 5K",
-    "date": "01/01/0005 00:00am",
-    "location": "Westmont",
-    "distance": "5K",
-    "link": "http://racetotheflag.org/"
-}, {
-    "title": "Ridge Run",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "10K,5K",
-    "link": "http://bapa.org/events/ridge-run-parade/"
-}, {
-    "title": "Run for Sam 5K Beer Run",
-    "date": "01/01/0005 00:00am",
-    "location": "Elk Grove Village",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/ElkGroveVillage/RunforSam5KBeerRun?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw"
-}, {
-    "title": "Magis Miles",
-    "date": "01/01/0005 00:00am",
-    "location": "Chicago",
-    "distance": "1 Mile",
-    "link": "http://www.magismiles.com/"
-}, {
-    "title": "Cosley Zoo Run for the Animals 10K/5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Wheaton",
-    "distance": "10K,5K",
-    "link": "https://cosleyzoo.org/events/#run"
-}, {
-    "title": "Dim Sum & Then Some: The Uptown 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://www.chinesemutualaid.org/copy-of-dim-sum-5k-2018"
-}, {
-    "title": "ZERO Prostate Cancer Run/Walk - Chicago",
-    "date": "01/01/0006 00:00am",
-    "location": "Joliet",
-    "distance": "10K,5K,1 Mile",
-    "link": "https://support.zerocancer.org/site/TR;jsessionid=00000000.app334a?fr_id=1810&pg=entry&NONCE_TOKEN=E243C1C71DF380C2BC1AAD6F251C302A"
-}, {
-    "title": "Love>Fear 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Downers Grove",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/DownersGrove/LOVEGREATER5K"
-}, {
-    "title": "Gospel Run 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "http://gospelrun.com/site/index.php/race-details"
-}, {
-    "title": "Run the Ridge 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Burr Ridge",
-    "distance": "5K",
-    "link": "https://www.runtheridge5k.com/"
-}, {
-    "title": "Gospel Run 5K/10K",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "10K,5K",
-    "link": "http://gospelrun.com/site/index.php"
-}, {
-    "title": "Holy Family School 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Shorewood",
-    "distance": "5K",
-    "link": "https://runsignup.com/Race/IL/Shorewood/HolyFamilySchool?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw"
-}, {
-    "title": "Dash for Detection 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "http://www.rolfefoundation.org/index.php/events/40"
-}, {
-    "title": "North Shore Classic Half Marathon & 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Highland Park",
-    "distance": "13.1,5K",
-    "link": "https://www.northshoreclassic.com/"
-}, {
-    "title": "Run For The Zoo 5K/10K",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "10K,5K",
-    "link": "https://raceroster.com/events/2019/18750/2019-run-for-the-zoo"
-}, {
-    "title": "PAWS Chicago 5K Walk/Run for Their Lives",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://my.pawschicago.org/PAWS5K2019"
-}, {
-    "title": "Run For The Roses 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Roselle",
-    "distance": "5K",
-    "link": "http://www.run4roses5k.com/"
-}, {
-    "title": "Viking 5K Fun Run/Walk to Conquer MG",
-    "date": "01/01/0006 00:00am",
-    "location": "Wheaton",
-    "distance": "5K",
-    "link": "https://www.myastheniagravis.org/viking5k2019/"
-}, {
-    "title": "Strides for Peace: Race Against Gun Violence",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "8K,5K,2 Mile Walk",
-    "link": "https://www.stridesforpeace.org/"
-}, {
-    "title": "Strides For Peace",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "8K,5K,2 Mile Walk",
-    "link": "https://www.stridesforpeace.org/race/"
-}, {
-    "title": "Imerman Angels Brunch Run 5K & Walk",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "http://www.brunchrun5k.com/"
-}, {
-    "title": "St. Charles 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "St. Charles",
-    "distance": "5K",
-    "link": "https://www.notallwoundsbleed.com/2019-events.html"
-}, {
-    "title": "Chicago Beer 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://www.beer5k.com/chicago"
-}, {
-    "title": "ABC7 Gibbons 5K Run and 3K Walk",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://gibbons5k.com/"
-}, {
-    "title": "I Love The 90's 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://ilovethe90srun.enmotive.com/events/register/2019-i-love-the-90-s-5k-chicago"
-}, {
-    "title": "Bigfoot Trail Run 10K & 5K",
-    "date": "01/01/0006 00:00am",
-    "location": "Lake Geneva",
-    "distance": "10K,5K",
-    "link": "https://www.bigfoottriathlon.com/trail"
-}, {
-    "title": "Bigfoot Triathlon",
-    "date": "01/01/0006 00:00am",
-    "location": "Lake Geneva",
-    "distance": "Olympic,Sprint",
-    "link": "https://www.bigfoottriathlon.com/triathlon"
-}, {
-    "title": "Chicago 10K",
-    "date": "01/01/0006 00:00am",
-    "location": "Chicago",
-    "distance": "10K",
-    "link": "https://runmfg.com/events/chicago10k"
-}, {
-    "title": "Elmhurst Running Club 4 On The 4th",
-    "date": "01/01/0007 00:00am",
-    "location": "Elmhurst",
-    "distance": "4 Miles",
-    "link": "http://www.4on4th.com/"
-}, {
-    "title": "Rock n' Roll Chicago 5K",
-    "date": "01/01/0007 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://www.runrocknroll.com/en/events/chicago/the-races/5k"
-}, {
-    "title": "Rock n' Roll Chicago Half Marathon & 10K",
-    "date": "01/01/0007 00:00am",
-    "location": "Chicago",
-    "distance": "13.1 Miles,10K",
-    "link": "https://www.runrocknroll.com/en/events/chicago/the-races/half-marathon"
-}, {
-    "title": "BTN Big10K",
-    "date": "01/01/0008 00:00am",
-    "location": "Chicago",
-    "distance": "10K,5K",
-    "link": "https://btnbig10k.com/"
-}, {
-    "title": "Chicago Triathlon",
-    "date": "01/01/0008 00:00am",
-    "location": "Chicago ",
-    "distance": "International,Sprint",
-    "link": "https://www.chicagotriathlon.com/"
-}, {
-    "title": "Run Mag Mile",
-    "date": "01/01/0009 00:00am",
-    "location": "Chicago",
-    "distance": "10K,5K",
-    "link": "https://www.runmagmile.com/"
-}, {
-    "title": "Chicago Half Marathon & 5K",
-    "date": "01/01/0009 00:00am",
-    "location": "Chicago",
-    "distance": "13.1 Miles,5K",
-    "link": "https://www.chicagohalfmarathon.com/"
-}, {
-    "title": "Bucktown 5K",
-    "date": "01/01/0010 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://www.bucktown5k.com/"
-}, {
-    "title": "International Chicago 5K",
-    "date": "01/01/0010 00:00am",
-    "location": "Chicago",
-    "distance": "5K",
-    "link": "https://www.chicago5k.com/"
-}, {
-    "title": "Bank of America Chicago Marathon",
-    "date": "01/01/0010 00:00am",
-    "location": "Chicago",
-    "distance": "26.2 Miles",
-    "link": "https://www.chicagomarathon.com/"
-}, {
-    "title": "Pumpkins In The Park 5K",
-    "date": "01/01/0010 00:00am",
-    "location": "Chicago",
-    "distance": "5K,CLIF Kid Spooky Sprint",
-    "link": "https://www.pumpkins5k.com/"
-}, {
-    "title": "20th Annual Chicago Lakefront 50/50",
-    "date": "01/01/0011 00:00am",
-    "location": "Chicago",
-    "distance": "50 Mile,50K",
-    "link": "http://www.chicagoultra.org/race%20info/fall.htm"
-}, {
-    "title": "Hot Chocolate 15K & 5K",
-    "date": "01/01/0011 00:00am",
-    "location": "Chicago",
-    "distance": "15K,5K",
-    "link": "https://www.hotchocolate15k.com/chicago"
-}, {
-    "title": "North Shore Turkey Trot 5K and 10K",
-    "date": "01/01/0011 00:00am",
-    "location": "Highland Park",
-    "distance": "10K,5K",
-    "link": "https://www.northshoreturkeytrot.com/"
+[{
+    "Date": "3/16/19",
+    "Time": "8:00am",
+    "Title": "Winnetka District 36 Jungle Jog 5K",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/Winnetka/WinnetkaMiddleSchoolDistrict?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw",
+    "Location": "Winnetka"
+}, {
+    "Date": "3/16/19",
+    "Time": "8:30am",
+    "Title": "Deer Park St. Paddy's Run",
+    "Distance": "10K,5K",
+    "Link": "https://allcommunityevents.com/deerparkstpaddysrun",
+    "Location": "Deer Park"
+}, {
+    "Date": "3/16/19",
+    "Time": "9:30am",
+    "Title": "St. Paddy's Day 5K \u0026 8K",
+    "Distance": "8K,5K",
+    "Link": "https://www.chicagoevents.com/events/st-paddys-day-run/",
+    "Location": "Chicago"
+}, {
+    "Date": "3/16/19",
+    "Time": "10:00am",
+    "Title": "Run for Cristo Rey",
+    "Distance": "10K,5K",
+    "Link": "https://www.cristorey.net/giving/event/runforcr",
+    "Location": "Chicago"
+}, {
+    "Date": "3/17/19",
+    "Time": "7:00am",
+    "Title": "Together We Tri Indoor Triathlon",
+    "Distance": "10 minute swim,20 minute bike,15 minute run",
+    "Link": "http://www.togetherwetri.com/triathlons.html",
+    "Location": "Glenview"
+}, {
+    "Date": "3/17/19",
+    "Time": "8:30am",
+    "Title": "Amita Health Bolingbrook St. Paddy's Half Marathon \u0026 5K",
+    "Distance": "13.1 Miles,5K",
+    "Link": "https://allcommunityevents.com/bolingbrookstpaddysrun",
+    "Location": "Bolingbrook"
+}, {
+    "Date": "3/23/19",
+    "Time": "11:00am",
+    "Title": "Bank of America Shamrock Shuffle The Mile",
+    "Distance": "1 Mile",
+    "Link": "https://www.shamrockshuffle.com/register-for-2019/one-mile/",
+    "Location": "Chicago"
+}, {
+    "Date": "3/24/19",
+    "Time": "8:30am",
+    "Title": "Bank of America Shamrock Shuffle",
+    "Distance": "8K,2 Mile",
+    "Link": "https://www.shamrockshuffle.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "3/30/19",
+    "Time": "8:30am",
+    "Title": "20th Annual Chicago Lakefront 50K George Cheung Memorial Race",
+    "Distance": "50K",
+    "Link": "http://www.chicagoultra.org/",
+    "Location": "Chicago"
+}, {
+    "Date": "3/30/19",
+    "Time": "9:00am",
+    "Title": "March4Meg 5K Run/Walk",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/EvergreenPark/March4Meg?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw",
+    "Location": "Evergreen Park"
+}, {
+    "Date": "4/06/19",
+    "Time": "7:00am",
+    "Title": "Chi Town Half Marathon \u0026 10K",
+    "Distance": "13.1 Miles,10K",
+    "Link": "https://allcommunityevents.com/chitownhalfmarathon10k",
+    "Location": "Chicago"
+}, {
+    "Date": "4/06/19",
+    "Time": "7:00am",
+    "Title": "Milwaukee Marathon",
+    "Distance": "26.2 Miles",
+    "Link": "https://runmilwaukee.com/race-details/",
+    "Location": "Milwaukee"
+}, {
+    "Date": "4/06/19",
+    "Time": "8:30am",
+    "Title": "World Health Run/Walk",
+    "Distance": "5K",
+    "Link": "https://localraces.com/worldhealthrun/world-health-run-walk-chicago-il-usa",
+    "Location": "Chicago"
+}, {
+    "Date": "4/06/19",
+    "Time": "8:45am",
+    "Title": "April Fool's 5K",
+    "Distance": "5K",
+    "Link": "https://ducatchiropractic.com/running/april-fools-5k-run/",
+    "Location": "Bloomingdale"
+}, {
+    "Date": "4/06/19",
+    "Time": "9:00am",
+    "Title": "Bull Valley Monster Hill Challenge",
+    "Distance": "5K,2K",
+    "Link": "https://raceroster.com/events/2019/21289/the-bull-valley-monster-hill-challenge-5k",
+    "Location": "Bull Valley"
+}, {
+    "Date": "4/07/19",
+    "Time": "9:00am",
+    "Title": "Mustang Trot 5K Run/Walk",
+    "Distance": "5K",
+    "Link": "https://mustangtrot.weebly.com/",
+    "Location": "Downers Grove"
+}, {
+    "Date": "4/07/19",
+    "Time": "9:00am",
+    "Title": "Good Life Race 5K",
+    "Distance": "5K",
+    "Link": "http://goodliferace.com/",
+    "Location": "Oak Park"
+}, {
+    "Date": "4/13/19",
+    "Time": "8:00am",
+    "Title": "Beat The Eagle 5K",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/Lombard/BeatTheEagle?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw",
+    "Location": "Lombard"
+}, {
+    "Date": "4/13/19",
+    "Time": "8:30am",
+    "Title": "Fun Run in Color 5K",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/Wheaton/FunRuninColor?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw",
+    "Location": "Wheaton"
+}, {
+    "Date": "4/13/19",
+    "Time": "9:00am",
+    "Title": "Wintrust Lakefront 10 Mile \u0026 5K",
+    "Distance": "10 Miles,5K",
+    "Link": "https://www.caralakefront10.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "4/13/19",
+    "Time": "8:00pm",
+    "Title": "Breakthrough for Brain Tumors 5K Run/Walk",
+    "Distance": "5K",
+    "Link": "http://hope.abta.org/site/TR/?pg=entry\u0026fr_id=3891",
+    "Location": "Chicago"
+}, {
+    "Date": "4/14/19",
+    "Time": "8:00am",
+    "Title": "Champion of Trees 10K",
+    "Distance": "10K",
+    "Link": "http://www.mortonarb.org/events/champion-trees-10k-run",
+    "Location": "Lisle"
+}, {
+    "Date": "4/14/19",
+    "Time": "9:00am",
+    "Title": "Young Hearts for Life 5K",
+    "Distance": "5K",
+    "Link": "https://www.eventbrite.com/e/young-hearts-for-life-4th-annual-junior-board-5k-runwalk-tickets-54832892658",
+    "Location": "Lisle"
+}, {
+    "Date": "4/20/19",
+    "Time": "9:00am",
+    "Title": "Bunny Rock Chicago 5K Run/Walk",
+    "Distance": "5K",
+    "Link": "http://www.bunnyrock5k.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "4/27/19",
+    "Time": "7:30am",
+    "Title": "Illiana Pancake Pacer 5K",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/Lansing/IllianaPancakePacer",
+    "Location": "Dyer"
+}, {
+    "Date": "4/27/19",
+    "Time": "8:00am",
+    "Title": "Race To Wrigley 5K",
+    "Distance": "5K",
+    "Link": "https://www.race-cubs.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "4/27/19",
+    "Time": "8:00am",
+    "Title": "TCS Run, White and Blue 5K",
+    "Distance": "5K",
+    "Link": "https://www.signmeup.com/site/reg/register.aspx?fid=C02V4H7",
+    "Location": "Shorewood"
+}, {
+    "Date": "4/27/19",
+    "Time": "8:00am",
+    "Title": "Race to Wrigley 5K",
+    "Distance": "5K",
+    "Link": "https://www.race-cubs.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "4/27/19",
+    "Time": "8:00am",
+    "Title": "NSYMCA Healthy KidsDay 5K Run",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/Northbrook/HealthyKidsDay5kWalkRun?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw",
+    "Location": "Northbrook"
+}, {
+    "Date": "4/27/19",
+    "Time": "9:00am",
+    "Title": "DuPage Human Race 5K",
+    "Distance": "5K,2 Mile Walk",
+    "Link": "https://www.dupagehumanrace.org/",
+    "Location": "Downers Grove"
+}, {
+    "Date": "4/27/19",
+    "Time": "9:00am",
+    "Title": "Foodie 5K - Wheaton",
+    "Distance": "5K",
+    "Link": "https://secure.qgiv.com/event/foodie5k2019/page/322691/",
+    "Location": "Wheaton"
+}, {
+    "Date": "4/27/19",
+    "Time": "9:00am",
+    "Title": "Spring into Health 5K",
+    "Distance": "5K",
+    "Link": "https://springintohealth.org/",
+    "Location": "Elk Grove Village"
+}, {
+    "Date": "4/28/19",
+    "Time": "8:00am",
+    "Title": "Phi Delta Chi 5K",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/Chicago/PhiDeltaChi5K?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw",
+    "Location": "Chicago"
+}, {
+    "Date": "4/28/19",
+    "Time": "8:00am",
+    "Title": "Ravenswood Run 5K",
+    "Distance": "5K",
+    "Link": "https://www.ravenswoodrun.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "4/28/19",
+    "Time": "8:00am",
+    "Title": "The McHenry County Human Race",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/CrystalLake/McHenryCountyHumanRace",
+    "Location": "Chicago"
+}, {
+    "Date": "4/28/19",
+    "Time": "9:00am",
+    "Title": "Miles for Smiles 5K",
+    "Distance": "5K",
+    "Link": "https://www.facebook.com/Celebrate-Differences-5K-Run-Walk-350345818320162/?epa=SEARCH_BOX",
+    "Location": "Oswego"
+}, {
+    "Date": "4/28/19",
+    "Time": "9:00am",
+    "Title": "HOPE Scholarship 5K",
+    "Distance": "5K",
+    "Link": "https://www.active.com/berwyn-il/running/distance-running-races/hope-scholarship-5k-2019?ltcmp=254301\u0026ltclickid=02_22632832_def70e94-956f-4cc3-b181-f735e55eac9f\u0026cmp=39N-DP260-BND10-SD230-DM20\u0026cdg=affiliate-254301",
+    "Location": "Berwyn"
+}, {
+    "Date": "4/28/19",
+    "Time": "9:00am",
+    "Title": "Run, Walk \u0026 Roll 5K",
+    "Distance": "5K,1 Mile",
+    "Link": "https://p2p.onecause.com/run-walk-roll",
+    "Location": "Bloomingdale"
+}, {
+    "Date": "4/28/19",
+    "Time": "10:00am",
+    "Title": "Payton O'Brien Run",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/Elmhurst/2018PaytonOBrienBloodDriveandRunWalk",
+    "Location": "Elmhurst"
+}, {
+    "Date": "5/04/19",
+    "Time": "7:00am",
+    "Title": "Wisconsin Marathon",
+    "Distance": "13.1 Miles,10K,5K",
+    "Link": "http://wisconsinmarathon.com/",
+    "Location": "Kenosha"
+}, {
+    "Date": "5/04/19",
+    "Time": "8:00am",
+    "Title": "Run to Remember 5K",
+    "Distance": "5K",
+    "Link": "https://www.classy.org/event/2019-run-to-remember/e214707",
+    "Location": "Chicago"
+}, {
+    "Date": "5/04/19",
+    "Time": "8:00am",
+    "Title": "IJP Trek for Tech 5K",
+    "Distance": "5K",
+    "Link": "https://raceroster.com/events/2019/21931/ijp-trek-for-tech-5k-runwalk",
+    "Location": "Flossmoor"
+}, {
+    "Date": "5/04/19",
+    "Time": "8:00am",
+    "Title": "Don't Tell Me To Slow Down 5K",
+    "Distance": "5K",
+    "Link": "https://app.racereach.com/event/nsa-chicago5k-familyfunrun/details",
+    "Location": "Evanston"
+}, {
+    "Date": "5/04/19",
+    "Time": "8:30am",
+    "Title": "Cinco de Miler",
+    "Distance": "5 Mile",
+    "Link": "https://www.cincodemiler.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "5/04/19",
+    "Time": "9:00am",
+    "Title": "Run for the Kids: Superhero Hustle",
+    "Distance": "5K,2 Mile Walk",
+    "Link": "http://www.easterseals.com/dfv/get-involved/events/run-for-the-kids.html",
+    "Location": "Villa Park"
+}, {
+    "Date": "5/04/19",
+    "Time": "9:00am",
+    "Title": "The Cities Project's 5th Annual 5K/8K Superhero Run",
+    "Distance": "5K",
+    "Link": "https://www.eventbrite.com/e/the-cities-projects-5th-annual-5k8k-superhero-run-registration-54934386228",
+    "Location": "Chicago"
+}, {
+    "Date": "5/04/19",
+    "Time": "9:00am",
+    "Title": "Huskies Pride Run/Walk",
+    "Distance": "10K,5K",
+    "Link": "https://huskiespriderunwalk.itsyourrace.com/event.aspx?id=11606",
+    "Location": "Arlington Heights"
+}, {
+    "Date": "5/04/19",
+    "Time": "9:00am",
+    "Title": "World Vision Global 6K for Water",
+    "Distance": "6K",
+    "Link": "https://www.teamworldvision.org/index.cfm?fuseaction=donorDrive.event\u0026eventID=1130",
+    "Location": "Chicago"
+}, {
+    "Date": "5/05/19",
+    "Time": "9:00am",
+    "Title": "Spring Fling 5K",
+    "Distance": "5K,1 Mile",
+    "Link": "https://www.athlinks.com/event/spring-fling-5k-2019-183871",
+    "Location": "Willowbrook"
+}, {
+    "Date": "5/11/19",
+    "Time": "7:00am",
+    "Title": "Groovin' in the Grove 5K",
+    "Distance": "5K",
+    "Link": "https://raceroster.com/events/2019/20583/30th-annual-groovin-in-the-grove-10k-5k-little-groovers-1k-k-100-yd-dash",
+    "Location": "Downers Grove"
+}, {
+    "Date": "5/11/19",
+    "Time": "7:15am",
+    "Title": "Quarryman Challenge 10 Mile \u0026 5K",
+    "Distance": "10 Miles,5K",
+    "Link": "http://quarrymanchallenge.com/",
+    "Location": "Lemont"
+}, {
+    "Date": "5/11/19",
+    "Time": "8:00am",
+    "Title": "Pink 5K",
+    "Distance": "5K",
+    "Link": "https://www.obparks.org/special-events/pink-5k",
+    "Location": "Oak Brook"
+}, {
+    "Date": "5/11/19",
+    "Time": "6:30pm",
+    "Title": "Gallery Gallop",
+    "Distance": "8.5K,3K",
+    "Link": "https://runsignup.com/Race/IN/Gary/21stAnnualGalleryGallop?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw",
+    "Location": "Gary"
+}, {
+    "Date": "5/12/19",
+    "Time": "8:00am",
+    "Title": "Barrington Mother's Day 5K Run/Walk",
+    "Distance": "5K",
+    "Link": "https://allcommunityevents.com/mothersday5k",
+    "Location": "Barrington"
+}, {
+    "Date": "5/12/19",
+    "Time": "8:00am",
+    "Title": "Queens Bees' for Breast \u0026 Ovarian Cancer 5K",
+    "Distance": "5K",
+    "Link": "http://carpediemraces.com/embrace-the-race-5k/",
+    "Location": "Highland Park"
+}, {
+    "Date": "5/12/19",
+    "Time": "9:00am",
+    "Title": "Komen Chicago Race for the Cure",
+    "Distance": "5K",
+    "Link": "http://chicagoland.info-komen.org/site/TR/RacefortheCure/HIL_ChicagoAffiliate?pg=entry\u0026fr_id=7512",
+    "Location": "Chicago"
+}, {
+    "Date": "5/16/19",
+    "Time": "7:00pm",
+    "Title": "Universal Sole 4 Mile Classic",
+    "Distance": "4 Mile",
+    "Link": "http://www.universalsole.com/four-mile-classic.html",
+    "Location": "Chicago"
+}, {
+    "Date": "5/18/19",
+    "Time": "6:30am",
+    "Title": "22nd Annual Run Walk - Together in Teal® - Ending Ovarian Cancer",
+    "Distance": "5K",
+    "Link": "https://runwalk.ovarian.org/illinois",
+    "Location": "Chicago"
+}, {
+    "Date": "5/18/19",
+    "Time": "8:00am",
+    "Title": "Got2Run for Education 8K \u0026 2.62K",
+    "Distance": "8K,2.62K",
+    "Link": "http://www.got2run.org/",
+    "Location": "Arlington Heights"
+}, {
+    "Date": "5/18/19",
+    "Time": "8:00am",
+    "Title": "Lew Blond Memorial 5K",
+    "Distance": "5K",
+    "Link": "http://lewblondrun.org/",
+    "Location": "Northbrook"
+}, {
+    "Date": "5/18/19",
+    "Time": "8:00am",
+    "Title": "The Y Run 5K",
+    "Distance": "5K",
+    "Link": "http://www.brryallymca.org/Yrun",
+    "Location": "Glen Ellyn"
+}, {
+    "Date": "5/18/19",
+    "Time": "8:30am",
+    "Title": "Stem Step 5K",
+    "Distance": "5K",
+    "Link": "http://www.stemstep5k.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "5/18/19",
+    "Time": "8:30am",
+    "Title": "5K Run and Walk to Help Children with Dyslexia",
+    "Distance": "5K",
+    "Link": "https://donate.childrensdyslexiacenterchicago.org/event/2019-5k-run-walk-to-help-children-with-dyslexia/e201539",
+    "Location": "Bloomingdale"
+}, {
+    "Date": "5/18/19",
+    "Time": "9:00am",
+    "Title": "Horizon Hustle 5K",
+    "Distance": "5K",
+    "Link": "http://www.runwalk.events/E1.asp?eID=53715",
+    "Location": "Chicago"
+}, {
+    "Date": "5/18/19",
+    "Time": "9:00am",
+    "Title": "Stride For A Cure 5K",
+    "Distance": "5K",
+    "Link": "http://www.phaevents.org/site/TR?fr_id=1224\u0026pg=entry",
+    "Location": "Elk Grove Village"
+}, {
+    "Date": "5/18/19",
+    "Time": "10:00am",
+    "Title": "Girls on the Run 5K - Northwest Indiana",
+    "Distance": "5K",
+    "Link": "https://gotrofnwi.org/5K-Highland",
+    "Location": "Highland"
+}, {
+    "Date": "5/18/19",
+    "Time": "8:00pm",
+    "Title": "Night Nation Run - Chicago",
+    "Distance": "5K",
+    "Link": "https://nightnationrun.com/chicago/",
+    "Location": "Chicago"
+}, {
+    "Date": "5/19/19",
+    "Time": "7:00am",
+    "Title": "Byline Bank Chicago Spring Half Marathon \u0026 10K",
+    "Distance": "13.1 Miles,10K",
+    "Link": "https://www.chicagospringhalf.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "5/19/19",
+    "Time": "7:05am",
+    "Title": "Chicagoland Spring Marathon \u0026 Half Marathon",
+    "Distance": "26.2 Miles,13.1 Miles",
+    "Link": "https://allcommunityevents.com/chicagolandspringmarathon",
+    "Location": "Schaumburg"
+}, {
+    "Date": "5/19/19",
+    "Time": "8:00am",
+    "Title": "Hill Yea! 10K",
+    "Distance": "10K",
+    "Link": "https://runsignup.com/Race/IN/Gary/HillYea10K?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw",
+    "Location": "Gary"
+}, {
+    "Date": "5/19/19",
+    "Time": "8:00am",
+    "Title": "Run \"Fore\" The Greater Good 5K",
+    "Distance": "5K",
+    "Link": "https://www.cognitoforms.com/OdysseyGolfFoundation1/_2019OdysseyGolfFoundationRunForeTheGreaterGood5K",
+    "Location": "Tinley Park"
+}, {
+    "Date": "5/19/19",
+    "Time": "8:00am",
+    "Title": "Run for 102/Run for the Roses 5K",
+    "Distance": "5K",
+    "Link": "http://www.runfor102.org/",
+    "Location": "La Grange"
+}, {
+    "Date": "5/19/19",
+    "Time": "8:30am",
+    "Title": "Darien Dash",
+    "Distance": "10K,5K,1 Mile",
+    "Link": "http://dariendash.com/",
+    "Location": "Darien"
+}, {
+    "Date": "5/19/19",
+    "Time": "9:00am",
+    "Title": "Chicago Promise Walk and 5K Run",
+    "Distance": "5K",
+    "Link": "http://promisewalk.org/locationpage.asp?BranchID=9",
+    "Location": "Elk Grove Village"
+}, {
+    "Date": "5/19/19",
+    "Time": "9:00am",
+    "Title": "Backbones 5K Run, Walk n Roll",
+    "Distance": "5K",
+    "Link": "https://backbonesonline.com/event/backbones5k2019/",
+    "Location": "Prospect Heights"
+}, {
+    "Date": "5/19/19",
+    "Time": "9:00am",
+    "Title": "PCHA -Illinois Conquering Congenital Heart Disease Run",
+    "Distance": "2 Miles",
+    "Link": "https://runsignup.com/Race/IL/GlenEllyn/ConqueringCHDIllinois?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw",
+    "Location": "Glen Ellyn"
+}, {
+    "Date": "5/23/19",
+    "Time": "7:00pm",
+    "Title": "J.P. Morgan Corporate Challenge - Chicago",
+    "Distance": "3.5 Miles",
+    "Link": "https://www.jpmorganchasecc.com/city/chicago/event-details",
+    "Location": "Chicago"
+}, {
+    "Date": "5/25/19",
+    "Time": "7:00am",
+    "Title": "Soldier Field 10 Mile",
+    "Distance": "10 Mile",
+    "Link": "https://www.soldierfield10.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "5/25/19",
+    "Time": "8:00am",
+    "Title": "Bubble Run 5K",
+    "Distance": "5K",
+    "Link": "http://bubblerun.com/upcoming-locations/chicago-il/",
+    "Location": "Joliet-Chicagoland Speedway"
+}, {
+    "Date": "5/25/19",
+    "Time": "8:00am",
+    "Title": "Salute, Inc. Memorial Day Weekend 10K/5K",
+    "Distance": "10K,5K",
+    "Link": "https://www.saluteinc.org/events/salute-inc-5k-10k/",
+    "Location": "Arlington Heights"
+}, {
+    "Date": "5/25/19",
+    "Time": "8:30am",
+    "Title": "Western Springs Tower Trot",
+    "Distance": "10K,5K",
+    "Link": "http://www.wsprings.com/414/Tower-Trot",
+    "Location": "Western Springs"
+}, {
+    "Date": "5/25/19",
+    "Time": "8:45pm",
+    "Title": "Foam Glow 5K",
+    "Distance": "5K",
+    "Link": "http://www.foamglow.com/chicagoil/",
+    "Location": "Joliet-Chicagoland Speedway"
+}, {
+    "Date": "5/26/19",
+    "Time": "8:00am",
+    "Title": "Race to the Flag 5K",
+    "Distance": "5K",
+    "Link": "http://racetotheflag.org/",
+    "Location": "Westmont"
+}, {
+    "Date": "5/27/19",
+    "Time": "8:00am",
+    "Title": "Ridge Run",
+    "Distance": "10K,5K",
+    "Link": "http://bapa.org/events/ridge-run-parade/",
+    "Location": "Chicago"
+}, {
+    "Date": "5/27/19",
+    "Time": "10:00am",
+    "Title": "Run for Sam 5K Beer Run",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/ElkGroveVillage/RunforSam5KBeerRun?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw",
+    "Location": "Elk Grove Village"
+}, {
+    "Date": "5/31/19",
+    "Time": "5:00pm",
+    "Title": "Magis Miles",
+    "Distance": "1 Mile",
+    "Link": "http://www.magismiles.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "6/01/19",
+    "Time": "7:30am",
+    "Title": "Cosley Zoo Run for the Animals 10K/5K",
+    "Distance": "10K,5K",
+    "Link": "https://cosleyzoo.org/events/#run",
+    "Location": "Wheaton"
+}, {
+    "Date": "6/01/19",
+    "Time": "8:00am",
+    "Title": "Dim Sum \u0026 Then Some: The Uptown 5K",
+    "Distance": "5K",
+    "Link": "https://www.chinesemutualaid.org/copy-of-dim-sum-5k-2018",
+    "Location": "Chicago"
+}, {
+    "Date": "6/01/19",
+    "Time": "8:00am",
+    "Title": "ZERO Prostate Cancer Run/Walk - Chicago",
+    "Distance": "10K,5K,1 Mile",
+    "Link": "https://support.zerocancer.org/site/TR;jsessionid=00000000.app334a?fr_id=1810\u0026pg=entry\u0026NONCE_TOKEN=E243C1C71DF380C2BC1AAD6F251C302A",
+    "Location": "Joliet"
+}, {
+    "Date": "6/01/19",
+    "Time": "8:00am",
+    "Title": "Love\u003eFear 5K",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/DownersGrove/LOVEGREATER5K",
+    "Location": "Downers Grove"
+}, {
+    "Date": "6/01/19",
+    "Time": "8:00am",
+    "Title": "Gospel Run 5K",
+    "Distance": "5K",
+    "Link": "http://gospelrun.com/site/index.php/race-details",
+    "Location": "Chicago"
+}, {
+    "Date": "6/01/19",
+    "Time": "8:00am",
+    "Title": "Run the Ridge 5K",
+    "Distance": "5K",
+    "Link": "https://www.runtheridge5k.com/",
+    "Location": "Burr Ridge"
+}, {
+    "Date": "6/01/19",
+    "Time": "8:00am",
+    "Title": "Gospel Run 5K/10K",
+    "Distance": "10K,5K",
+    "Link": "http://gospelrun.com/site/index.php",
+    "Location": "Chicago"
+}, {
+    "Date": "6/01/19",
+    "Time": "8:30am",
+    "Title": "Holy Family School 5K",
+    "Distance": "5K",
+    "Link": "https://runsignup.com/Race/IL/Shorewood/HolyFamilySchool?aflt_token=vkmwDmweQ4iCYn8otSOOnKQ3vCO8buOw",
+    "Location": "Shorewood"
+}, {
+    "Date": "6/01/19",
+    "Time": "9:00am",
+    "Title": "Dash for Detection 5K",
+    "Distance": "5K",
+    "Link": "http://www.rolfefoundation.org/index.php/events/40",
+    "Location": "Chicago"
+}, {
+    "Date": "6/02/19",
+    "Time": "7:00am",
+    "Title": "North Shore Classic Half Marathon \u0026 5K",
+    "Distance": "13.1,5K",
+    "Link": "https://www.northshoreclassic.com/",
+    "Location": "Highland Park"
+}, {
+    "Date": "6/02/19",
+    "Time": "7:30am",
+    "Title": "Run For The Zoo 5K/10K",
+    "Distance": "10K,5K",
+    "Link": "https://raceroster.com/events/2019/18750/2019-run-for-the-zoo",
+    "Location": "Chicago"
+}, {
+    "Date": "6/02/19",
+    "Time": "7:30am",
+    "Title": "PAWS Chicago 5K Walk/Run for Their Lives",
+    "Distance": "5K",
+    "Link": "https://my.pawschicago.org/PAWS5K2019",
+    "Location": "Chicago"
+}, {
+    "Date": "6/02/19",
+    "Time": "8:00am",
+    "Title": "Run For The Roses 5K",
+    "Distance": "5K",
+    "Link": "http://www.run4roses5k.com/",
+    "Location": "Roselle"
+}, {
+    "Date": "6/02/19",
+    "Time": "8:15am",
+    "Title": "Viking 5K Fun Run/Walk to Conquer MG",
+    "Distance": "5K",
+    "Link": "https://www.myastheniagravis.org/viking5k2019/",
+    "Location": "Wheaton"
+}, {
+    "Date": "6/06/19",
+    "Time": "6:30pm",
+    "Title": "Strides for Peace: Race Against Gun Violence",
+    "Distance": "8K,5K,2 Mile Walk",
+    "Link": "https://www.stridesforpeace.org/",
+    "Location": "Chicago"
+}, {
+    "Date": "6/06/19",
+    "Time": "6:30pm",
+    "Title": "Strides For Peace",
+    "Distance": "8K,5K,2 Mile Walk",
+    "Link": "https://www.stridesforpeace.org/race/",
+    "Location": "Chicago"
+}, {
+    "Date": "6/08/19",
+    "Time": "8:00am",
+    "Title": "Imerman Angels Brunch Run 5K \u0026 Walk",
+    "Distance": "5K",
+    "Link": "http://www.brunchrun5k.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "6/08/19",
+    "Time": "9:00am",
+    "Title": "St. Charles 5K",
+    "Distance": "5K",
+    "Link": "https://www.notallwoundsbleed.com/2019-events.html",
+    "Location": "St. Charles"
+}, {
+    "Date": "6/08/19",
+    "Time": "5:00pm",
+    "Title": "Chicago Beer 5K",
+    "Distance": "5K",
+    "Link": "https://www.beer5k.com/chicago",
+    "Location": "Chicago"
+}, {
+    "Date": "6/13/19",
+    "Time": "6:25pm",
+    "Title": "ABC7 Gibbons 5K Run and 3K Walk",
+    "Distance": "5K",
+    "Link": "https://gibbons5k.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "6/22/19",
+    "Time": "8:00am",
+    "Title": "I Love The 90's 5K",
+    "Distance": "5K",
+    "Link": "https://ilovethe90srun.enmotive.com/events/register/2019-i-love-the-90-s-5k-chicago",
+    "Location": "Chicago"
+}, {
+    "Date": "6/22/19",
+    "Time": "8:30am",
+    "Title": "Bigfoot Trail Run 10K \u0026 5K",
+    "Distance": "10K,5K",
+    "Link": "https://www.bigfoottriathlon.com/trail",
+    "Location": "Lake Geneva"
+}, {
+    "Date": "6/23/19",
+    "Time": "7:00am",
+    "Title": "Bigfoot Triathlon",
+    "Distance": "Olympic,Sprint",
+    "Link": "https://www.bigfoottriathlon.com/triathlon",
+    "Location": "Lake Geneva"
+}, {
+    "Date": "6/30/19",
+    "Time": "8:00am",
+    "Title": "Chicago 10K",
+    "Distance": "10K",
+    "Link": "https://runmfg.com/events/chicago10k",
+    "Location": "Chicago"
+}, {
+    "Date": "7/04/19",
+    "Time": "7:15am",
+    "Title": "Elmhurst Running Club 4 On The 4th",
+    "Distance": "4 Miles",
+    "Link": "http://www.4on4th.com/",
+    "Location": "Elmhurst"
+}, {
+    "Date": "7/20/19",
+    "Time": "7:30am",
+    "Title": "Rock n' Roll Chicago 5K",
+    "Distance": "5K",
+    "Link": "https://www.runrocknroll.com/en/events/chicago/the-races/5k",
+    "Location": "Chicago"
+}, {
+    "Date": "7/21/19",
+    "Time": "6:30am",
+    "Title": "Rock n' Roll Chicago Half Marathon \u0026 10K",
+    "Distance": "13.1 Miles,10K",
+    "Link": "https://www.runrocknroll.com/en/events/chicago/the-races/half-marathon",
+    "Location": "Chicago"
+}, {
+    "Date": "8/11/19",
+    "Time": "7:00am",
+    "Title": "BTN Big10K",
+    "Distance": "10K,5K",
+    "Link": "https://btnbig10k.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "8/25/19",
+    "Time": "6:00am",
+    "Title": "Chicago Triathlon",
+    "Distance": "International,Sprint",
+    "Link": "https://www.chicagotriathlon.com/",
+    "Location": "Chicago "
+}, {
+    "Date": "9/07/19",
+    "Time": "7:00am",
+    "Title": "Run Mag Mile",
+    "Distance": "10K,5K",
+    "Link": "https://www.runmagmile.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "9/29/19",
+    "Time": "7:00am",
+    "Title": "Chicago Half Marathon \u0026 5K",
+    "Distance": "13.1 Miles,5K",
+    "Link": "https://www.chicagohalfmarathon.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "10/06/19",
+    "Time": "8:30am",
+    "Title": "Bucktown 5K",
+    "Distance": "5K",
+    "Link": "https://www.bucktown5k.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "10/12/19",
+    "Time": "7:30am",
+    "Title": "International Chicago 5K",
+    "Distance": "5K",
+    "Link": "https://www.chicago5k.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "10/13/19",
+    "Time": "7:30am",
+    "Title": "Bank of America Chicago Marathon",
+    "Distance": "26.2 Miles",
+    "Link": "https://www.chicagomarathon.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "10/19/19",
+    "Time": "4:00pm",
+    "Title": "Pumpkins In The Park 5K",
+    "Distance": "5K,CLIF Kid Spooky Sprint",
+    "Link": "https://www.pumpkins5k.com/",
+    "Location": "Chicago"
+}, {
+    "Date": "11/02/19",
+    "Time": "6:30am",
+    "Title": "20th Annual Chicago Lakefront 50/50",
+    "Distance": "50 Mile,50K",
+    "Link": "http://www.chicagoultra.org/race%20info/fall.htm",
+    "Location": "Chicago"
+}, {
+    "Date": "11/03/19",
+    "Time": "7:00am",
+    "Title": "Hot Chocolate 15K \u0026 5K",
+    "Distance": "15K,5K",
+    "Link": "https://www.hotchocolate15k.com/chicago",
+    "Location": "Chicago"
+}, {
+    "Date": "11/28/19",
+    "Time": "8:00am",
+    "Title": "North Shore Turkey Trot 5K and 10K",
+    "Distance": "10K,5K",
+    "Link": "https://www.northshoreturkeytrot.com/",
+    "Location": "Highland Park"
 }]
-}

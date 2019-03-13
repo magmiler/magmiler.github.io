@@ -7,10 +7,44 @@
 <script>
 
 </script>
-
-<div>
-  <p>Mag Miler</p>
-  <div class='background-block'>
+<body>
+  <div class="header" role="navigation">
+    <div class="header-brand" id='header-brand'>MagMiler</div>
+  </div>
+  <div>
+    <div class='background-block'>
+      <div class='filters'>
+        <div class="month-filter">
+          <button class="dropbtn"><mf>Month</mf> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+          <div class="month-dropdown-content">
+            <a onclick="updateMonth('All')">All</a>
+            <% (1..12).each do |month| %>
+            <% month = Date::MONTHNAMES[month][0,3] %>
+            <a onclick="updateMonth('<%=month%>')"><%=month%></a>
+            <% end %>
+        </div>
+        <p class='filter-value' id='month-value'>All</p>
+      </div>
+      <div class="location-filter">
+        <button class="dropbtn"><lf>Location</lf> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+        <div class="dropdown-content">
+          <a onclick="updateLocation('All')">All</a>
+          <a onclick="updateLocation('Chicago')">Chicago</a>
+        </div>
+        <p class='filter-value' id='location-value'>All</p>
+      </div>
+      <div class="distance-filter">
+        <button class="dropbtn"><df>Distance</df> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+        <div class="dropdown-content">
+          <a onclick="updateDistance('All')">All</a>
+          <a onclick="updateDistance('5K')">5K</a>
+          <a onclick="updateDistance('10K')">10K</a>
+          <a onclick="updateDistance('13.1 Miles')">Half Marathon</a>
+          <a onclick="updateDistance('26.2 Miles')">Marathon</a>
+        </div>
+        <p class='filter-value' id='distance-value'>All</p>
+      </div>
+    </div>
     <div class='race-table'>
       <ul class="event-list" id="event-list">
       </ul>
