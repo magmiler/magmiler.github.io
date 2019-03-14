@@ -1,7 +1,7 @@
 
 // handle click and add class
 $(document).ready(function() {
-  $.getJSON("https://magmiler.github.io/races/", function(data){
+  $.getJSON("http://www.magmiler.com/races/", function(data){
     let dstring = ""
     $.each(data, function (index, race) {
       dstring = dstring + '<li style="cursor: pointer;" onclick="window.open(\'' + race.Link + '\');">'
