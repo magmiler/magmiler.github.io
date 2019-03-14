@@ -4,7 +4,8 @@ $(document).ready(function() {
   $.getJSON("https://magmiler.github.io/races/", function(data){
     let dstring = ""
     $.each(data, function (index, race) {
-      dstring = dstring + '<li><time><span class="day">' + race.Day + '</span>'
+      dstring = dstring + '<li style="cursor: pointer;" onclick="window.open(\'' + race.Link + '\');">'
+      dstring = dstring + '<time><span class="day">' + race.Day + '</span>'
       dstring = dstring + '<span class="month"><month>' + race.Month + '<month></span></time>'
       dstring = dstring + '<div class="info"><h2 class="title">' + race.Title + '</h2>'
       dstring = dstring + '<p class="desc"><i class="fas fa-map-signs event-list-icon"></i><location>' + race.Location + '</location>'
