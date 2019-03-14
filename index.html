@@ -18,10 +18,18 @@
           <button class="dropbtn"><mf>Month</mf> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
           <div class="month-dropdown-content">
             <a onclick="updateMonth('All')">All</a>
-            <% (1..12).each do |month| %>
-            <% month = Date::MONTHNAMES[month][0,3] %>
-            <a onclick="updateMonth('<%=month%>')"><%=month%></a>
-            <% end %>
+            <a onclick="updateMonth('Jan')">Jan</a>
+            <a onclick="updateMonth('Feb')">Feb</a>
+            <a onclick="updateMonth('Mar')">Mar</a>
+            <a onclick="updateMonth('Apr')">Apr</a>
+            <a onclick="updateMonth('May')">May</a>
+            <a onclick="updateMonth('Jun')">Jun</a>
+            <a onclick="updateMonth('Jul')">Jul</a>
+            <a onclick="updateMonth('Aug')">Aug</a>
+            <a onclick="updateMonth('Sep')">Sep</a>
+            <a onclick="updateMonth('Oct')">Oct</a>
+            <a onclick="updateMonth('Nov')">Nov</a>
+            <a onclick="updateMonth('Dec')">Dec</a>
         </div>
         <p class='filter-value' id='month-value'>All</p>
       </div>
