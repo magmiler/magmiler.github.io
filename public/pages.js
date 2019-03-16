@@ -1,7 +1,7 @@
 
 // handle click and add class
 $(document).ready(function() {
-  $.getJSON("races/", function(data){
+  $.getJSON("https://api.myjson.com/bins/1f3k9y", function(data){
     let dstring = ""
     $.each(data, function (index, race) {
       dstring = dstring + '<li style="cursor: pointer;" onclick="window.open(\'' + race.Link + '\');">'
