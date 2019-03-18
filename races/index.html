@@ -1,0 +1,22 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $.getJSON("https://jsonblob.com/api/jsonBlob/1fc861e0-49cd-11e9-9547-83b52565c936", function(data){
+      let dstring = "["
+      $.each(data, function (index, race) {
+        if (index > 0) {
+            dstring = dstring + ','
+        }
+        dstring = dstring + '{"link": "' + race.Link
+        dstring = dstring + '","day": "' + race.Day
+        dstring = dstring + '","month": "' + race.Month
+        dstring = dstring + '","location": "' + race.Location
+        dstring = dstring + '","start": "' + race.Start
+        dstring = dstring + '","distance": "' + race.Distance + '"}'
+      });
+      dstring = dstring + ']'
+      $("#event-list").html(dstring);
+    });
+  })
+</script>
+<div id="event-list"></div>
