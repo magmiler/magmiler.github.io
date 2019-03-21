@@ -1,61 +1,52 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <link rel="stylesheet" type="text/css" href="public/style.css"/>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-<script src="public/pages.js"></script>
 </head>
-<script>
 
-</script>
-<body>
-  <div class="header" role="navigation">
-    <div class="header-brand" id='header-brand'>MagMiler</div>
-  </div>
-  <div>
-    <div class='background-block'>
-      <div class='filters'>
-        <div class="month-filter">
-          <button class="dropbtn"><mf>Month</mf> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
-          <div class="month-dropdown-content">
-            <a onclick="updateMonth('All')">All</a>
-            <a onclick="updateMonth('Jan')">Jan</a>
-            <a onclick="updateMonth('Feb')">Feb</a>
-            <a onclick="updateMonth('Mar')">Mar</a>
-            <a onclick="updateMonth('Apr')">Apr</a>
-            <a onclick="updateMonth('May')">May</a>
-            <a onclick="updateMonth('Jun')">Jun</a>
-            <a onclick="updateMonth('Jul')">Jul</a>
-            <a onclick="updateMonth('Aug')">Aug</a>
-            <a onclick="updateMonth('Sep')">Sep</a>
-            <a onclick="updateMonth('Oct')">Oct</a>
-            <a onclick="updateMonth('Nov')">Nov</a>
-            <a onclick="updateMonth('Dec')">Dec</a>
-        </div>
-        <p class='filter-value' id='month-value'>All</p>
-      </div>
-      <div class="location-filter">
-        <button class="dropbtn"><lf>Location</lf> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
-        <div class="dropdown-content">
-          <a onclick="updateLocation('All')">All</a>
-          <a onclick="updateLocation('Chicago')">Chicago</a>
-        </div>
-        <p class='filter-value' id='location-value'>All</p>
-      </div>
-      <div class="distance-filter">
-        <button class="dropbtn"><df>Distance</df> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
-        <div class="dropdown-content">
-          <a onclick="updateDistance('All')">All</a>
-          <a onclick="updateDistance('5K')">5K</a>
-          <a onclick="updateDistance('10K')">10K</a>
-          <a onclick="updateDistance('13.1 Miles')">Half Marathon</a>
-          <a onclick="updateDistance('26.2 Miles')">Marathon</a>
-        </div>
-        <p class='filter-value' id='distance-value'>All</p>
-      </div>
+<div id='app'>
+  <!-- <div class='filters'>
+    <div class="month-filter">
+      <button class="dropbtn"><mf>Month</mf> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <div class="month-dropdown-content">
+        <a onclick="updateMonth('All')">All</a>
+        <a onclick="updateMonth('Jan')">Jan</a>
+        <a onclick="updateMonth('Feb')">Feb</a>
+        <a onclick="updateMonth('Mar')">Mar</a>
+        <a onclick="updateMonth('Apr')">Apr</a>
+        <a onclick="updateMonth('May')">May</a>
+        <a onclick="updateMonth('Jun')">Jun</a>
+        <a onclick="updateMonth('Jul')">Jul</a>
+        <a onclick="updateMonth('Aug')">Aug</a>
+        <a onclick="updateMonth('Sep')">Sep</a>
+        <a onclick="updateMonth('Oct')">Oct</a>
+        <a onclick="updateMonth('Nov')">Nov</a>
+        <a onclick="updateMonth('Dec')">Dec</a>
     </div>
-    <div class='race-table'>
-      <ul class="event-list" id="event-list">
-      </ul>
-    </div>
+    <p class='filter-value' id='month-value'>All</p>
   </div>
+  <div class="location-filter">
+    <button class="dropbtn"><lf>Location</lf> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+    <div class="dropdown-content">
+      <a onclick="updateLocation('All')">All</a>
+      <a onclick="updateLocation('Chicago')">Chicago</a>
+    </div>
+    <p class='filter-value' id='location-value'>All</p>
+  </div>
+  <div class="distance-filter">
+    <button class="dropbtn"><df>Distance</df> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+    <div class="dropdown-content">
+      <a onclick="updateDistance('All')">All</a>
+      <a onclick="updateDistance('5K')">5K</a>
+      <a onclick="updateDistance('10K')">10K</a>
+      <a onclick="updateDistance('13.1 Miles')">Half Marathon</a>
+      <a onclick="updateDistance('26.2 Miles')">Marathon</a>
+    </div>
+    <p class='filter-value' id='distance-value'>All</p>
+  </div>
+</div> -->
+  <race-component v-for="race in races" :race="race"/>
 </div>
+
+<script src="public/pages.js"></script>
