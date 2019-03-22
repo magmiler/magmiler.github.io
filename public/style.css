@@ -13,7 +13,7 @@ body {
 race {
   box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
   height: 90px;
-  display: 'block';
+  display: block;
   cursor: pointer;
   background-color: #fff;
   color: #373737;
@@ -153,8 +153,6 @@ time {
 }
 
 .filters {
-  /* position: -webkit-sticky;
-  position: sticky; */
   top:0px;
   padding-top: 8px;
   padding-bottom: 5px;
