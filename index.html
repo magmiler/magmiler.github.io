@@ -1,52 +1,52 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
 <link rel="stylesheet" type="text/css" href="public/style.css"/>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
 </head>
 
 <div id='app'>
-  <!-- <div class='filters'>
+  <div class='filters'>
     <div class="month-filter">
-      <button class="dropbtn"><mf>Month</mf> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <button class="dropbtn">Month <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="month-dropdown-content">
-        <a onclick="updateMonth('All')">All</a>
-        <a onclick="updateMonth('Jan')">Jan</a>
-        <a onclick="updateMonth('Feb')">Feb</a>
-        <a onclick="updateMonth('Mar')">Mar</a>
-        <a onclick="updateMonth('Apr')">Apr</a>
-        <a onclick="updateMonth('May')">May</a>
-        <a onclick="updateMonth('Jun')">Jun</a>
-        <a onclick="updateMonth('Jul')">Jul</a>
-        <a onclick="updateMonth('Aug')">Aug</a>
-        <a onclick="updateMonth('Sep')">Sep</a>
-        <a onclick="updateMonth('Oct')">Oct</a>
-        <a onclick="updateMonth('Nov')">Nov</a>
-        <a onclick="updateMonth('Dec')">Dec</a>
+        <a @click="update_month('all')">All</a>
+        <a @click="update_month('Jan')">Jan</a>
+        <a @click="update_month('Feb')">Feb</a>
+        <a @click="update_month('Mar')">Mar</a>
+        <a @click="update_month('Apr')">Apr</a>
+        <a @click="update_month('May')">May</a>
+        <a @click="update_month('Jun')">Jun</a>
+        <a @click="update_month('Jul')">Jul</a>
+        <a @click="update_month('Aug')">Aug</a>
+        <a @click="update_month('Sep')">Sep</a>
+        <a @click="update_month('Oct')">Oct</a>
+        <a @click="update_month('Nov')">Nov</a>
+        <a @click="update_month('Dec')">Dec</a>
+      </div>
+      <p class='filter-value' id='month-value'>All</p>
     </div>
-    <p class='filter-value' id='month-value'>All</p>
-  </div>
-  <div class="location-filter">
-    <button class="dropbtn"><lf>Location</lf> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
-    <div class="dropdown-content">
-      <a onclick="updateLocation('All')">All</a>
-      <a onclick="updateLocation('Chicago')">Chicago</a>
+    <div class="location-filter">
+      <button class="dropbtn">Location <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <div class="dropdown-content">
+        <a @click="update_location('all')">All</a>
+        <a @click="update_location('Chicago')">Chicago</a>
+      </div>
+      <p class='filter-value' id='location-value'>All</p>
     </div>
-    <p class='filter-value' id='location-value'>All</p>
-  </div>
-  <div class="distance-filter">
-    <button class="dropbtn"><df>Distance</df> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
-    <div class="dropdown-content">
-      <a onclick="updateDistance('All')">All</a>
-      <a onclick="updateDistance('5K')">5K</a>
-      <a onclick="updateDistance('10K')">10K</a>
-      <a onclick="updateDistance('13.1 Miles')">Half Marathon</a>
-      <a onclick="updateDistance('26.2 Miles')">Marathon</a>
+    <div class="distance-filter">
+      <button class="dropbtn">Distance <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <div class="dropdown-content">
+        <a @click="update_distance('all')">All</a>
+        <a @click="update_distance('5K')">5K</a>
+        <a @click="update_distance('10K')">10K</a>
+        <a @click="update_distance('13.1 Miles')">Half Marathon</a>
+        <a @click="update_distance('26.2 Miles')">Marathon</a>
+      </div>
+      <p class='filter-value' id='distance-value'>All</p>
     </div>
-    <p class='filter-value' id='distance-value'>All</p>
   </div>
-</div> -->
-  <race-component v-for="race in races" :race="race"/>
+  <race-component v-for="race in races" :race="race" v-if="(location === 'all' && month === 'all' && distance === 'all') || (race.Location === location && race.Month === month && distance === 'all') || (location === 'all' && race.Month === month && distance === 'all') || (race.Location === location && month === 'all' && distance === 'all') || (location === 'all' && month === 'all' && race.Distance.indexOf(distance) !== -1) || (race.Location === location && race.Month === month && race.Distance.indexOf(distance) !== -1) || (location === 'all' && race.Month === month && race.Distance.indexOf(distance) !== -1) || (race.Location === location && month === 'all' && race.Distance.indexOf(distance) !== -1) || (location === 'all' && month === 'all' && race.Distance.indexOf(distance) !== -1)"/>
 </div>
 
 <script src="public/pages.js"></script>
