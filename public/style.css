@@ -10,9 +10,10 @@ body {
   margin: 0px auto;
 }
 
-.race {
+race {
   box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
   height: 90px;
+  display: 'block';
   cursor: pointer;
   background-color: #fff;
   color: #373737;

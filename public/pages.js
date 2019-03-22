@@ -27,7 +27,7 @@ Vue.component('distance-component', {
 
 Vue.component('race-component', {
   template:  `
-    <div class='race'>
+    <race>
       <time>
         <span class="day">{{race.Day}}</span>
         <span class="month">{{race.Month}}</span>
@@ -40,7 +40,7 @@ Vue.component('race-component', {
           <br><i class="fas fa-road event-list-icon"></i>{{race.Distance}}
         </small>
       </div>
-    </>
+    </race>
     `,
   props: {
     race: Object
