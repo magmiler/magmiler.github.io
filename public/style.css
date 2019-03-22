@@ -1,27 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:400,800');
 
 body {
-  height: 100%;
   background: #e6ecf1;
   font-family: 'Muli', sans-serif;
 }
 
 #app {
   max-width: 700px;
-  margin: 30px auto;
+  margin: 0px auto;
 }
 
 .race {
-  box-shadow: 0px 0px 5px rgb(51, 51, 51);
-  box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
-  padding: 0px;
-  position: relative;
-  display: block;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
   height: 90px;
   cursor: pointer;
   background-color: #fff;
   color: #373737;
-  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
   margin-top: 15px;
 }
 
@@ -157,14 +151,34 @@ time {
     background-color: #9e0c02;
 }
 
-
 .filters {
-  position: -webkit-sticky;
-  position: sticky;
+  /* position: -webkit-sticky;
+  position: sticky; */
   top:0px;
   padding-top: 8px;
   padding-bottom: 5px;
   z-index: 3;
   border-bottom: 2px solid #d84d34;
+  background-color: white
 }
 /* end of filter stuff */
+
+/* search stuff */
+.race-search {
+    background-position: 10px;
+    background-repeat: no-repeat;
+    width: 300px; /* Full-width */
+    font-size: 14px; /* Increase font-size */
+    padding: 4px 4px 4px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+
+.search {
+  /* padding-top: 8px; */
+  padding-bottom: 5px;
+  z-index: 3;
+}
+/* end of search stuff */

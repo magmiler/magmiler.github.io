@@ -3,10 +3,14 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
 <link rel="stylesheet" type="text/css" href="public/style.css"/>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <div id='app'>
   <div class='filters'>
+    <div class='search'>
+      <input type="text" class="race-search" id="raceSearch" onkeyup="raceSearch()" autocomplete="off" placeholder="Search for races..." style="background-image: url(<%= asset_path 'searchicon.png' %>);">
+    </div>
     <div class="month-filter">
       <button class="dropbtn">Month <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="month-dropdown-content">

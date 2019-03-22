@@ -27,7 +27,7 @@ Vue.component('distance-component', {
 
 Vue.component('race-component', {
   template:  `
-    <div class="race">
+    <div class='race'>
       <time>
         <span class="day">{{race.Day}}</span>
         <span class="month">{{race.Month}}</span>
@@ -40,7 +40,7 @@ Vue.component('race-component', {
           <br><i class="fas fa-road event-list-icon"></i>{{race.Distance}}
         </small>
       </div>
-    </div>
+    </>
     `,
   props: {
     race: Object
@@ -73,3 +73,29 @@ new Vue({
     })
   }
 });
+
+function raceSearch() {
+  input = document.getElementById("raceSearch");
+  races = document.getElementsByTagName("race");
+
+  if (input == '') {
+    for (i = 0; i < races.length; i++) {
+      races[i].style.display = "block";
+    }
+  } else {
+    searchTerms = input.value.toUpperCase().split(" ")
+    for (i = 0; i < races.length; i++) {
+      count = 0
+      for (n = 0; n < searchTerms.length; n++) {
+        if (races[i].innerHTML.toUpperCase().indexOf(searchTerms[n]) > -1) {
+          count += 1
+        }
+      }
+      if (count == searchTerms.length) {
+        races[i].style.display = "block";
+      } else {
+        races[i].style.display = "none";
+      }
+    }
+  }
+}
