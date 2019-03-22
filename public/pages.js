@@ -1,5 +1,30 @@
-var dataURL = 'https://jsonblob.com/api/jsonBlob/1fc861e0-49cd-11e9-9547-83b52565c936';
+const dataURL = 'https://jsonblob.com/api/jsonBlob/1fc861e0-49cd-11e9-9547-83b52565c936';
+const months = ['All', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+const locations = ['All', 'Chicago']
+const distances = ['All', '5K', '10K', '13.1 Miles', '26.2 Miles']
+
 // onclick="window.open(\'{{race.Link}}\');"
+Vue.component('month-component', {
+  template:  `<a>{{month}}</a>`,
+  props: {
+    month: Object
+  }
+})
+
+Vue.component('location-component', {
+  template:  `<a>{{location}}</a>`,
+  props: {
+    location: Object
+  }
+})
+
+Vue.component('distance-component', {
+  template:  `<a>{{distance}}</a>`,
+  props: {
+    distance: Object
+  }
+})
+
 Vue.component('race-component', {
   template:  `
     <div class="race">
@@ -26,9 +51,9 @@ new Vue({
   el: '#app',
   data: {
     races: [],
-    distance: 'all',
-    month: 'all',
-    location: 'all',
+    distance: 'All',
+    month: 'All',
+    location: 'All',
   },
   methods: {
     update_month: function(month){

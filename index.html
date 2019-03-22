@@ -10,43 +10,23 @@
     <div class="month-filter">
       <button class="dropbtn">Month <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="month-dropdown-content">
-        <a @click="update_month('all')">All</a>
-        <a @click="update_month('Jan')">Jan</a>
-        <a @click="update_month('Feb')">Feb</a>
-        <a @click="update_month('Mar')">Mar</a>
-        <a @click="update_month('Apr')">Apr</a>
-        <a @click="update_month('May')">May</a>
-        <a @click="update_month('Jun')">Jun</a>
-        <a @click="update_month('Jul')">Jul</a>
-        <a @click="update_month('Aug')">Aug</a>
-        <a @click="update_month('Sep')">Sep</a>
-        <a @click="update_month('Oct')">Oct</a>
-        <a @click="update_month('Nov')">Nov</a>
-        <a @click="update_month('Dec')">Dec</a>
+        <month-component v-for="month in months" :month="month" @click.native="update_month(month)">
       </div>
-      <p class='filter-value' id='month-value'>All</p>
     </div>
     <div class="location-filter">
       <button class="dropbtn">Location <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="dropdown-content">
-        <a @click="update_location('all')">All</a>
-        <a @click="update_location('Chicago')">Chicago</a>
+        <location-component v-for="location in locations" :location="location" @click.native="update_location(location)">
       </div>
-      <p class='filter-value' id='location-value'>All</p>
     </div>
     <div class="distance-filter">
       <button class="dropbtn">Distance <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="dropdown-content">
-        <a @click="update_distance('all')">All</a>
-        <a @click="update_distance('5K')">5K</a>
-        <a @click="update_distance('10K')">10K</a>
-        <a @click="update_distance('13.1 Miles')">Half Marathon</a>
-        <a @click="update_distance('26.2 Miles')">Marathon</a>
+        <distance-component v-for="distance in distances" :distance="distance" @click.native="update_distance(distance)">
       </div>
-      <p class='filter-value' id='distance-value'>All</p>
     </div>
   </div>
-  <race-component v-for="race in races" :race="race" v-if="(location === 'all' && month === 'all' && distance === 'all') || (race.Location === location && race.Month === month && distance === 'all') || (location === 'all' && race.Month === month && distance === 'all') || (race.Location === location && month === 'all' && distance === 'all') || (location === 'all' && month === 'all' && race.Distance.indexOf(distance) !== -1) || (race.Location === location && race.Month === month && race.Distance.indexOf(distance) !== -1) || (location === 'all' && race.Month === month && race.Distance.indexOf(distance) !== -1) || (race.Location === location && month === 'all' && race.Distance.indexOf(distance) !== -1) || (location === 'all' && month === 'all' && race.Distance.indexOf(distance) !== -1)"/>
+  <race-component v-for="race in races" :race="race" @click.native="window.open(race.Link);" v-if="(location === 'All' && month === 'All' && distance === 'All') || (race.Location === location && race.Month === month && distance === 'All') || (location === 'All' && race.Month === month && distance === 'All') || (race.Location === location && month === 'All' && distance === 'All') || (location === 'All' && month === 'All' && race.Distance.indexOf(distance) !== -1) || (race.Location === location && race.Month === month && race.Distance.indexOf(distance) !== -1) || (location === 'All' && race.Month === month && race.Distance.indexOf(distance) !== -1) || (race.Location === location && month === 'All' && race.Distance.indexOf(distance) !== -1) || (location === 'All' && month === 'All' && race.Distance.indexOf(distance) !== -1)"/>
 </div>
 
 <script src="public/pages.js"></script>
