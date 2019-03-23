@@ -33,12 +33,12 @@ Vue.component('race-component', {
         <span class="month">{{race.Month}}</span>
       </time>
       <div class="info">
-        <h2 class="title">{{race.Title}}</h2>
-        <small>
+        <div class="title">{{race.Title}}</div>
+        <div class='small'>
           <i class="fas fa-map-signs event-list-icon"></i>{{race.Location}}
           <br><i class="far fa-clock event-list-icon"></i>{{race.Start}}
           <br><i class="fas fa-road event-list-icon"></i>{{race.Distance}}
-        </small>
+        </div>
       </div>
     </race>
     `,
@@ -64,13 +64,15 @@ new Vue({
 		},
     update_distance: function(distance){
         this.distance = distance;
-    }
+    },
+
   },
   mounted() { // when the Vue app is booted up, this is run automatically.
     var self = this // create a closure to access component in the callback below
     $.getJSON(dataURL, function(data) {
       self.races = data;
     })
+    resize()
   }
 });
 

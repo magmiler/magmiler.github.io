@@ -20,14 +20,34 @@ race {
   margin-top: 15px;
 }
 
-small {
+.small {
   font-size: 12px;
-  color: #5D5D5D;;
+  color: #5D5D5D;
+  line-height: 16px;
+  position: absolute;
+  margin-bottom: 2px;
+  bottom: 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  position: relative;
+  top: 22px;
+  max-height: 42px;
+  line-height: 20px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .info {
-	padding-top: 5px;
-  padding-left: 100px;
+  padding: 0px 10px;
+  margin-left: 90px;
+  height: 90px;
+  position: relative;
 }
 
 time > .day {
@@ -55,13 +75,6 @@ time {
   padding: 0px;
   margin: 0px;
   float: left;
-}
-
-.title {
-  font-size: 14pt;
-  font-weight: 700;
-  margin: 0px;
-  line-height: 20pt;
 }
 
 /* Everything from here is filters */
