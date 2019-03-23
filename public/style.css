@@ -31,9 +31,9 @@ race {
 
 @media only screen and (max-width: 600px) {
    .title {
-      font-size: 14px;
-      line-height: 15px;
-      max-height: 30px;
+      font-size: 13px;
+      line-height: 17px;
+      max-height: 33px;
    }
 
 
@@ -45,16 +45,12 @@ race {
       line-height: 20px;
       max-height: 42px;
    }
-
-   .small {
-
-   }
 }
 
 .title {
   font-weight: 700;
   position: relative;
-  top: 22px;
+  top: 20px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
