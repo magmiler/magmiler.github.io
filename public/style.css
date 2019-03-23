@@ -62,8 +62,6 @@ time {
   font-weight: 700;
   margin: 0px;
   line-height: 20pt;
-  overflow: hidden;
-  white-space: nowrap;
 }
 
 /* Everything from here is filters */
