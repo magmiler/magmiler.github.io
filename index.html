@@ -6,11 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+
+
 <div id='app'>
   <div class='filters'>
-    <div class='search'>
-      <input type="text" class="race-search" id="raceSearch" onkeyup="raceSearch()" autocomplete="off" placeholder="Search for races..." style="background-image: url(<%= asset_path 'searchicon.png' %>);">
-    </div>
     <div class="month-filter">
       <button class="dropbtn">Month <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="month-dropdown-content">
@@ -28,6 +27,9 @@
       <div class="dropdown-content">
         <distance-component v-for="distance in distances" :distance="distance" @click.native="update_distance(distance)">
       </div>
+    </div>
+    <div class='search'>
+      <input type="text" class="race-search" id="raceSearch" onkeyup="raceSearch()" autocomplete="off" placeholder="Search for races...">
     </div>
   </div>
   <race-component v-for="race in races" :race="race" @click.native="window.open(race.Link);" v-if="(location === 'All' && month === 'All' && distance === 'All') || (race.Location === location && race.Month === month && distance === 'All') || (location === 'All' && race.Month === month && distance === 'All') || (race.Location === location && month === 'All' && distance === 'All') || (location === 'All' && month === 'All' && race.Distance.indexOf(distance) !== -1) || (race.Location === location && race.Month === month && race.Distance.indexOf(distance) !== -1) || (location === 'All' && race.Month === month && race.Distance.indexOf(distance) !== -1) || (race.Location === location && month === 'All' && race.Distance.indexOf(distance) !== -1) || (location === 'All' && month === 'All' && race.Distance.indexOf(distance) !== -1)"/>

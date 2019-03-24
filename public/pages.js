@@ -72,7 +72,6 @@ new Vue({
     $.getJSON(dataURL, function(data) {
       self.races = data;
     })
-    resize()
   }
 });
 
