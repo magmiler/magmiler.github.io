@@ -3,29 +3,27 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
 <link rel="stylesheet" type="text/css" href="public/style.css"/>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, use-scalable=0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 </head>
-
-
 
 <div id='app'>
   <div class='filters'>
-    <div class="month-filter">
+    <div @click="toggle_month()" class="month-filter">
       <button class="dropbtn">Month <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="month-dropdown-content">
-        <month-component v-for="month in months" :month="month" @click.native="update_month(month)">
+        <month-component v-for="month in months" :month="month" @click.native="update_month(month)" v-if="show_month === true">
       </div>
     </div>
-    <div class="location-filter">
+    <div @click="toggle_location()" class="location-filter">
       <button class="dropbtn">Location <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="dropdown-content">
-        <location-component v-for="location in locations" :location="location" @click.native="update_location(location)">
+        <location-component v-for="location in locations" :location="location" @click.native="update_location(location)" v-if="show_location === true">
       </div>
     </div>
-    <div class="distance-filter">
+    <div @click="toggle_distance()" class="distance-filter">
       <button class="dropbtn">Distance <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="dropdown-content">
-        <distance-component v-for="distance in distances" :distance="distance" @click.native="update_distance(distance)">
+        <distance-component v-for="distance in distances" :distance="distance" @click.native="update_distance(distance)" v-if="show_distance === true">
       </div>
     </div>
     <div class='search'>

@@ -54,6 +54,9 @@ new Vue({
     distance: 'All',
     month: 'All',
     location: 'All',
+    show_month: false,
+    show_location: false,
+    show_distance: false,
   },
   methods: {
     update_month: function(month){
@@ -65,7 +68,27 @@ new Vue({
     update_distance: function(distance){
         this.distance = distance;
     },
-
+    toggle_month: function() {
+      if (this.show_month === true) {
+        this.show_month = false
+      } else {
+        this.show_month = true
+      }
+    },
+    toggle_location: function() {
+      if (this.show_location === true) {
+        this.show_location = false
+      } else {
+        this.show_location = true
+      }
+    },
+    toggle_distance: function() {
+      if (this.show_distance === true) {
+        this.show_distance = false
+      } else {
+        this.show_distance = true
+      }
+    },
   },
   mounted() { // when the Vue app is booted up, this is run automatically.
     var self = this // create a closure to access component in the callback below
