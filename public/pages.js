@@ -73,6 +73,8 @@ new Vue({
         this.show_month = false
       } else {
         this.show_month = true
+        this.show_distance = false
+        this.show_location = false
       }
     },
     toggle_location: function() {
@@ -80,6 +82,8 @@ new Vue({
         this.show_location = false
       } else {
         this.show_location = true
+        this.show_month = false
+        this.show_distance = false
       }
     },
     toggle_distance: function() {
@@ -87,6 +91,8 @@ new Vue({
         this.show_distance = false
       } else {
         this.show_distance = true
+        this.show_month = false
+        this.show_location = false
       }
     },
   },
