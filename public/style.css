@@ -6,6 +6,10 @@ body {
   margin: 0px;
 }
 
+img {
+  width: 100vw;
+}
+
 #app {
   max-width: 700px;
   margin: 0px auto;
@@ -214,7 +218,7 @@ time {
 }
 
 .search {
-  /* padding-top: 8px; */
+  padding-top: 7px;
   padding-bottom: 5px;
   z-index: 3;
   display: inline-block;
