@@ -63,6 +63,7 @@ race {
         padding: 2px;
         border-bottom: 1px solid #cddbe7;
         height: 38px;
+        z-index: 5;
     }
 
     .filters {
