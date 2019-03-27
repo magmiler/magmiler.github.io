@@ -6,16 +6,18 @@ body {
   margin: 0px;
 }
 
-img {
+#app {
   width: 100vw;
 }
 
-#app {
-  max-width: 700px;
-  margin: 0px auto;
+.header {
+  width: 100vw;
+  background-color: #2e4a62;
 }
 
 race {
+  max-width: 700px;
+  margin: 0px auto;
   box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
   height: 90px;
   display: block;
@@ -45,7 +47,34 @@ race {
    }
    .race-search {
        width: calc(100vw - 37px);
+       margin: 5px auto 5px auto;
+
+
      }
+
+    .search-bar {
+        width: 100vw;
+        margin: 0px;
+        background-color: white;
+        position: -webkit-sticky;
+        position: sticky;
+        top:0px;
+        display: block;
+        padding: 2px;
+        border-bottom: 1px solid #cddbe7;
+        height: 38px;
+    }
+
+    .filters {
+      position: -webkit-sticky;
+      position: sticky;
+      top:42px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
 }
 
 @media only screen and (min-width: 700px) {
@@ -58,8 +87,19 @@ race {
        width: 95px;
    }
    .race-search {
-       width: 370px;
-       margin-left: 8px;
+       width: 270px;
+       margin: 20px 30px 12px;
+       top: 0px;
+       position: absolute;
+       right: 0;
+     }
+     .header {
+       border-bottom: 1px solid #cddbe7;
+     }
+     img {
+       width: auto;
+       height: 60px;
+       float: left;
      }
 }
 
@@ -110,12 +150,17 @@ time {
 
 /* Everything from here is filters */
 .dropbtn{
-    background-color: #d84d34;
+  background-color: #d84d34;
     color: white;
     padding: 8px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    height: 32px;
+    border-right: 1px solid #cddbe7;
+    border-left: 1px solid #cddbe7;
+    margin:0;
+    padding: 0;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -166,6 +211,10 @@ time {
 
 .month-dropdown-content a:hover {background-color: #f1f1f1}
 
+.location-filter {
+    margin-left: -5px;
+    margin-right: -5px;
+}
 /* Show the dropdown menu on hover */
 .location-filter:hover .dropdown-content {
     display: block;
@@ -195,13 +244,11 @@ time {
 }
 
 .filters {
-  position: -webkit-sticky;
-  position: sticky;
-  top:0px;
-  padding: 8 10 5 10;
+  padding: 0px;
+  margin: 0px;
   z-index: 3;
-  border-bottom: 2px solid #d84d34;
-  background-color: white
+  background-color: #d84d34;
+  text-align:center;
 }
 /* end of filter stuff */
 
@@ -209,18 +256,27 @@ time {
 .race-search {
     background-position: 10px;
     background-repeat: no-repeat;
-    font-size: 14px; /* Increase font-size */
-    padding: 4px 4px 4px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin-right:auto;
-    /* display: block; */
+    font-size: 16px;
+    color: black;
+    padding: 4px 4px 4px 40px;
+    border: 2px solid #eee;
     background-image: url('searchicon.png');
+    border-radius: 20px;
+    height: 30px;
+    background-color: white;
+    max-width: 750px;
+    display: block
 }
 
-.search {
-  padding-top: 7px;
-  padding-bottom: 5px;
+.header {
+  /* padding-top: 7px; */
+  /* padding-bottom: 5px; */
   z-index: 3;
   display: inline-block;
+  /* position: absolute; */
+  top: 0px;
+  margin: 0px;
+  background-color: white;
+  width: 100vw;
 }
 /* end of search stuff */

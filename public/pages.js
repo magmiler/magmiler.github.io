@@ -95,6 +95,31 @@ new Vue({
         this.show_location = false
       }
     },
+    race_search: function() {
+      input = document.getElementById("raceSearch");
+      races = document.getElementsByTagName("race");
+
+      if (input == '') {
+        for (i = 0; i < races.length; i++) {
+          races[i].style.display = "block";
+        }
+      } else {
+        searchTerms = input.value.toUpperCase().split(" ")
+        for (i = 0; i < races.length; i++) {
+          count = 0
+          for (n = 0; n < searchTerms.length; n++) {
+            if (races[i].innerHTML.toUpperCase().indexOf(searchTerms[n]) > -1) {
+              count += 1
+            }
+          }
+          if (count == searchTerms.length) {
+            races[i].style.display = "block";
+          } else {
+            races[i].style.display = "none";
+          }
+        }
+      }
+    }
   },
   mounted() { // when the Vue app is booted up, this is run automatically.
     var self = this // create a closure to access component in the callback below
@@ -103,29 +128,3 @@ new Vue({
     })
   }
 });
-
-function raceSearch() {
-  input = document.getElementById("raceSearch");
-  races = document.getElementsByTagName("race");
-
-  if (input == '') {
-    for (i = 0; i < races.length; i++) {
-      races[i].style.display = "block";
-    }
-  } else {
-    searchTerms = input.value.toUpperCase().split(" ")
-    for (i = 0; i < races.length; i++) {
-      count = 0
-      for (n = 0; n < searchTerms.length; n++) {
-        if (races[i].innerHTML.toUpperCase().indexOf(searchTerms[n]) > -1) {
-          count += 1
-        }
-      }
-      if (count == searchTerms.length) {
-        races[i].style.display = "block";
-      } else {
-        races[i].style.display = "none";
-      }
-    }
-  }
-}
