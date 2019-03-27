@@ -51,9 +51,9 @@ new Vue({
   el: '#app',
   data: {
     races: [],
-    distance: 'All',
-    month: 'All',
-    location: 'All',
+    distance: 'Distance',
+    month: 'Month',
+    location: 'Location',
     show_month: false,
     show_location: false,
     show_distance: false,
@@ -61,12 +61,25 @@ new Vue({
   methods: {
     update_month: function(month){
 				this.month = month;
+        if (month === 'All') {
+          this.month = 'Month';
+        } else {
+          this.month = month
+        }
 		},
     update_location: function(location){
-				this.location = location;
+        if (location === 'All') {
+          this.location = 'Location';
+        } else {
+          this.location = location
+        }
 		},
     update_distance: function(distance){
-        this.distance = distance;
+        if (distance === 'All') {
+          this.distance = 'Distance';
+        } else {
+          this.distance = distance
+        }
     },
     toggle_month: function() {
       if (this.show_month === true) {

@@ -20,19 +20,19 @@
   </div>
   <div class="filters">
     <div @click="toggle_month()" class="month-filter">
-      <button class="dropbtn">Month <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <button class="dropbtn">{{ month }} <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="month-dropdown-content">
         <month-component v-for="month in months" :month="month" @click.native="update_month(month)" v-if="show_month === true">
       </div>
     </div>
     <div @click="toggle_location()" class="location-filter">
-      <button class="dropbtn">Location <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <button class="dropbtn">{{ location }} <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="dropdown-content">
         <location-component v-for="location in locations" :location="location" @click.native="update_location(location)" v-if="show_location === true">
       </div>
     </div>
     <div @click="toggle_distance()" class="distance-filter">
-      <button class="dropbtn">Distance <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <button class="dropbtn">{{ distance }} <i class="fa fa-caret-down" aria-hidden="true"></i></button>
       <div class="dropdown-content">
         <distance-component v-for="distance in distances" :distance="distance" @click.native="update_distance(distance)" v-if="show_distance === true">
       </div>
