@@ -65,7 +65,7 @@ race:last-child {
         top:0px;
         display: block;
         padding: 2px;
-        border-bottom: 1px solid #cddbe7;
+        border-bottom: 1px solid #e89586;
         height: 38px;
         z-index: 5;
     }
@@ -99,7 +99,7 @@ race:last-child {
        right: 0;
      }
      .header {
-       border-bottom: 1px solid #cddbe7;
+       border-bottom: 1px solid #e89586;
      }
      img {
        width: auto;
@@ -162,8 +162,9 @@ time {
     border: none;
     cursor: pointer;
     height: 32px;
-    border-right: 1px solid #cddbe7;
-    border-left: 1px solid #cddbe7;
+    border-right: 1px solid #e89586;
+    border-left: 1px solid #e89586;
+    /* border-top: 1px solid #f0b8ae; */
     margin:0;
     padding: 0;
 }
