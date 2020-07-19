@@ -1,6 +1,6 @@
-const dataURL = 'https://jsonblob.com/api/jsonBlob/1fc861e0-49cd-11e9-9547-83b52565c936';
+const dataURL = 'https://jsonblob.com/api/jsonBlob/d3019bd6-c9db-11ea-b835-5b32b0ddcb4d';
 const months = ['All', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-const locations = ['All', 'Chicago']
+const locations = ['All', 'Chicago', 'Virtual']
 const distances = ['All', '5K', '10K', '13.1 Miles', '26.2 Miles']
 
 // onclick="window.open(\'{{race.Link}}\');"
